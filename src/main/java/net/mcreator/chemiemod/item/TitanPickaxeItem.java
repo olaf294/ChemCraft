@@ -1,6 +1,14 @@
 
 package net.mcreator.chemiemod.item;
 
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.PickaxeItem;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+
+import net.mcreator.chemiemod.init.ChemieModModItems;
+
 public class TitanPickaxeItem extends PickaxeItem {
 	public TitanPickaxeItem() {
 		super(new Tier() {
@@ -17,16 +25,16 @@ public class TitanPickaxeItem extends PickaxeItem {
 			}
 
 			public int getLevel() {
-				return 0;
+				return 3;
 			}
 
 			public int getEnchantmentValue() {
-				return 2;
+				return 20;
 			}
 
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(ChemieModModItems.TITAN_INGOT.get()));
 			}
-		}, 1, -3f, new Item.Properties());
+		}, 1, -2.8f, new Item.Properties().fireResistant());
 	}
 }
