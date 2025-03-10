@@ -80,7 +80,7 @@
     {
       "name": "Titansword",
       "type": "tool",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "titansword",
       "metadata": {
