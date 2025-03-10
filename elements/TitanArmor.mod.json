@@ -3,19 +3,19 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "titan_helmet",
+    "textureHelmet": "titan_armor_head",
     "enableBody": true,
-    "textureBody": "titan_armor_texture_body",
+    "textureBody": "titan_armor_body",
     "enableLeggings": true,
-    "textureLeggings": "titan_armor_texture_leggings",
+    "textureLeggings": "titan_armor_leggings",
     "enableBoots": true,
-    "textureBoots": "titan_armor_texture_boots",
+    "textureBoots": "titan_armor_boots",
     "creativeTabs": [
       {
         "value": "COMBAT"
       }
     ],
-    "armorTextureFile": "titan_armor_texture",
+    "armorTextureFile": "titan_armor",
     "helmetName": "Titan Armor Helmet",
     "bodyName": "Titan Armor Chestplate",
     "leggingsName": "Titan Armor Leggings",
