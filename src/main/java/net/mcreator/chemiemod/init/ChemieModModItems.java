@@ -16,6 +16,7 @@ import net.mcreator.chemiemod.item.TitanswordItem;
 import net.mcreator.chemiemod.item.TitanPickaxeItem;
 import net.mcreator.chemiemod.item.TitanIngotItem;
 import net.mcreator.chemiemod.item.TitanArmorItem;
+import net.mcreator.chemiemod.item.TItanAxeItem;
 import net.mcreator.chemiemod.ChemieModMod;
 
 public class ChemieModModItems {
@@ -28,6 +29,7 @@ public class ChemieModModItems {
 	public static final RegistryObject<Item> TITAN_ARMOR_BOOTS = REGISTRY.register("titan_armor_boots", () -> new TitanArmorItem.Boots());
 	public static final RegistryObject<Item> TITAN_PICKAXE = REGISTRY.register("titan_pickaxe", () -> new TitanPickaxeItem());
 	public static final RegistryObject<Item> TITANSWORD = REGISTRY.register("titansword", () -> new TitanswordItem());
+	public static final RegistryObject<Item> T_ITAN_AXE = REGISTRY.register("t_itan_axe", () -> new TItanAxeItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
