@@ -17,17 +17,17 @@
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "titanore",
+      "registry_name": "titan",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemie_mod/models/block/titanore.json",
-          "src/main/resources/data/chemie_mod/worldgen/configured_feature/titanore.json",
-          "src/main/resources/assets/chemie_mod/blockstates/titanore.json",
-          "src/main/resources/data/chemie_mod/forge/biome_modifier/titanore_biome_modifier.json",
+          "src/main/resources/assets/chemie_mod/blockstates/titan.json",
+          "src/main/resources/data/chemie_mod/forge/biome_modifier/titan_biome_modifier.json",
+          "src/main/resources/data/chemie_mod/loot_tables/blocks/titan.json",
+          "src/main/resources/assets/chemie_mod/models/item/titan.json",
           "src/main/java/net/mcreator/chemiemod/block/TitanBlock.java",
-          "src/main/resources/assets/chemie_mod/models/item/titanore.json",
-          "src/main/resources/data/chemie_mod/worldgen/placed_feature/titanore.json",
-          "src/main/resources/data/chemie_mod/loot_tables/blocks/titanore.json"
+          "src/main/resources/data/chemie_mod/worldgen/configured_feature/titan.json",
+          "src/main/resources/data/chemie_mod/worldgen/placed_feature/titan.json",
+          "src/main/resources/assets/chemie_mod/models/block/titan.json"
         ]
       },
       "path": "~/Metalle/Titan"
@@ -76,6 +76,20 @@
         ]
       },
       "path": "~/Metalle/Titan"
+    },
+    {
+      "name": "Titansword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titansword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemie_mod/models/item/titansword.json",
+          "src/main/java/net/mcreator/chemiemod/item/TitanswordItem.java"
+        ]
+      },
+      "path": "~/Metalle/Titan"
     }
   ],
   "variable_elements": [],
@@ -89,6 +103,9 @@
     ],
     "ITEMS:minecraft:pickaxes": [
       "~CUSTOM:TitanPickaxe"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:Titansword"
     ]
   },
   "tab_element_order": {},
@@ -97,7 +114,6 @@
       "item.chemie_mod.titan_armor_chestplate": "Titan Armor Chestplate",
       "block.chemie_mod.titanore": "Titan Ore",
       "item.chemie_mod.titan_armor_boots": "Titan Armor Boots",
-      "item.chemie_mod.titan_pickaxe": "Titan Pickaxe",
       "item.chemie_mod.titan_armor_helmet": "Titan Armor Helmet",
       "item.chemie_mod.titan_ingot": "Titan Ingot",
       "item.chemie_mod.titan_armor_leggings": "Titan Armor Leggings"

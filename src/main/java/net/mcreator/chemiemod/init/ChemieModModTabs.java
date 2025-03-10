@@ -22,7 +22,7 @@ public class ChemieModModTabs {
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
-			tabData.accept(ChemieModModBlocks.TITANORE.get().asItem());
+			tabData.accept(ChemieModModBlocks.TITAN.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(ChemieModModItems.TITAN_INGOT.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
@@ -32,6 +32,7 @@ public class ChemieModModTabs {
 			tabData.accept(ChemieModModItems.TITAN_ARMOR_BOOTS.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(ChemieModModItems.TITAN_PICKAXE.get());
+			tabData.accept(ChemieModModItems.TITANSWORD.get());
 		}
 	}
 }

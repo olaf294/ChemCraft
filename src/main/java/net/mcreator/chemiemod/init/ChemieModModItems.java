@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.chemiemod.item.TitanswordItem;
 import net.mcreator.chemiemod.item.TitanPickaxeItem;
 import net.mcreator.chemiemod.item.TitanIngotItem;
 import net.mcreator.chemiemod.item.TitanArmorItem;
@@ -19,13 +20,14 @@ import net.mcreator.chemiemod.ChemieModMod;
 
 public class ChemieModModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, ChemieModMod.MODID);
-	public static final RegistryObject<Item> TITANORE = block(ChemieModModBlocks.TITANORE);
+	public static final RegistryObject<Item> TITAN = block(ChemieModModBlocks.TITAN);
 	public static final RegistryObject<Item> TITAN_INGOT = REGISTRY.register("titan_ingot", () -> new TitanIngotItem());
 	public static final RegistryObject<Item> TITAN_ARMOR_HELMET = REGISTRY.register("titan_armor_helmet", () -> new TitanArmorItem.Helmet());
 	public static final RegistryObject<Item> TITAN_ARMOR_CHESTPLATE = REGISTRY.register("titan_armor_chestplate", () -> new TitanArmorItem.Chestplate());
 	public static final RegistryObject<Item> TITAN_ARMOR_LEGGINGS = REGISTRY.register("titan_armor_leggings", () -> new TitanArmorItem.Leggings());
 	public static final RegistryObject<Item> TITAN_ARMOR_BOOTS = REGISTRY.register("titan_armor_boots", () -> new TitanArmorItem.Boots());
 	public static final RegistryObject<Item> TITAN_PICKAXE = REGISTRY.register("titan_pickaxe", () -> new TitanPickaxeItem());
+	public static final RegistryObject<Item> TITANSWORD = REGISTRY.register("titansword", () -> new TitanswordItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -1,32 +1,32 @@
 
 package net.mcreator.chemiemod.item;
 
-public class TitanPickaxeItem extends PickaxeItem {
-	public TitanPickaxeItem() {
+public class TitanswordItem extends SwordItem {
+	public TitanswordItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 1600;
+				return 1000;
 			}
 
 			public float getSpeed() {
-				return 4f;
+				return 7f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 3f;
+				return 2f;
 			}
 
 			public int getLevel() {
-				return 0;
+				return 3;
 			}
 
 			public int getEnchantmentValue() {
-				return 2;
+				return 20;
 			}
 
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(ChemieModModItems.TITAN_INGOT.get()));
 			}
-		}, 1, -3f, new Item.Properties());
+		}, 3, -2.8f, new Item.Properties().fireResistant());
 	}
 }
