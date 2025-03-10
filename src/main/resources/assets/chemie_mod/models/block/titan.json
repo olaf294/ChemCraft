@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chemie_mod:block/titanium-ore",
+    "up": "chemie_mod:block/titanium-ore",
+    "north": "chemie_mod:block/titanium-ore",
+    "east": "chemie_mod:block/titanium-ore",
+    "south": "chemie_mod:block/titanium-ore",
+    "west": "chemie_mod:block/titanium-ore",
+    "particle": "chemie_mod:block/titanium-ore"
+  },
+  "render_type": "solid"
+}
