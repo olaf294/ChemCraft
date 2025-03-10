@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "chemie_mod:item/titanarmor_body"
-  }
-}

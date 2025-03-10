@@ -13,6 +13,26 @@
       }
     },
     {
+      "name": "Titan",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titan",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemie_mod/blockstates/titan.json",
+          "src/main/resources/data/chemie_mod/forge/biome_modifier/titan_biome_modifier.json",
+          "src/main/resources/data/chemie_mod/loot_tables/blocks/titan.json",
+          "src/main/resources/assets/chemie_mod/models/item/titan.json",
+          "src/main/java/net/mcreator/chemiemod/block/TitanBlock.java",
+          "src/main/resources/data/chemie_mod/worldgen/configured_feature/titan.json",
+          "src/main/resources/data/chemie_mod/worldgen/placed_feature/titan.json",
+          "src/main/resources/assets/chemie_mod/models/block/titan.json"
+        ]
+      },
+      "path": "~/Metalle/Titan"
+    },
+    {
       "name": "TitanIngot",
       "type": "item",
       "compiles": true,
@@ -20,57 +40,49 @@
       "registry_name": "titan_ingot",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemie_mod/models/item/titan_ingot.json",
-          "src/main/java/net/mcreator/chemiemod/item/TitanIngotItem.java"
+          "src/main/java/net/mcreator/chemiemod/item/TitanIngotItem.java",
+          "src/main/resources/assets/chemie_mod/models/item/titan_ingot.json"
         ]
-      }
+      },
+      "path": "~/Metalle/Titan"
     },
     {
-      "name": "Titan",
+      "name": "TitanArmor",
       "type": "armor",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "titanarmor",
+      "registry_name": "titan_armor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemie_mod/models/item/titanarmor_chestplate.json",
-          "src/main/resources/assets/chemie_mod/models/item/titanarmor_leggings.json",
-          "src/main/resources/assets/chemie_mod/models/item/titanarmor_boots.json",
-          "src/main/java/net/mcreator/chemiemod/item/TitanItem.java",
-          "src/main/resources/assets/chemie_mod/models/item/titanarmor_helmet.json"
+          "src/main/resources/assets/chemie_mod/models/item/titan_armor_leggings.json",
+          "src/main/resources/assets/chemie_mod/models/item/titan_armor_boots.json",
+          "src/main/resources/assets/chemie_mod/models/item/titan_armor_chestplate.json",
+          "src/main/resources/assets/chemie_mod/models/item/titan_armor_helmet.json",
+          "src/main/java/net/mcreator/chemiemod/item/TitanArmorItem.java"
         ]
-      }
-    },
-    {
-      "name": "Hured",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hured",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/chemie_mod/blockstates/hured.json",
-          "src/main/java/net/mcreator/chemiemod/block/HuredBlock.java",
-          "src/main/resources/data/chemie_mod/loot_tables/blocks/hured.json",
-          "src/main/resources/assets/chemie_mod/models/item/hured.json",
-          "src/main/resources/assets/chemie_mod/models/block/hured.json"
-        ]
-      }
+      },
+      "path": "~/Metalle/Titan"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:Titan"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Titan"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item.chemie_mod.titanarmor_leggings": "Titan Leggins",
-      "item.chemie_mod.titanarmor_chestplate": "Titan Chestplate",
-      "item.chemie_mod.titanarmor_helmet": "Titan Helmet",
+      "item.chemie_mod.titan_armor_chestplate": "Titan Armor Chestplate",
+      "item.chemie_mod.titan_armor_boots": "Titan Armor Boots",
       "block.chemie_mod.titan": "Titan Ore",
-      "item.chemie_mod.titanarmor_boots": "Titan Boots",
-      "block.chemie_mod.hured": "Hured",
-      "item.chemie_mod.titan_ingot": "Titan Ingot"
+      "item.chemie_mod.titan_armor_helmet": "Titan Armor Helmet",
+      "item.chemie_mod.titan_ingot": "Titan Ingot",
+      "item.chemie_mod.titan_armor_leggings": "Titan Armor Leggings"
     }
   },
   "foldersRoot": {

@@ -8,9 +8,9 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.core.BlockPos;
 
-public class HuredBlock extends Block {
-	public HuredBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.GRAVEL).strength(1f, 10f));
+public class TitanBlock extends Block {
+	public TitanBlock() {
+		super(BlockBehaviour.Properties.of().sound(SoundType.STONE).strength(3f, 5f).requiresCorrectToolForDrops());
 	}
 
 	@Override

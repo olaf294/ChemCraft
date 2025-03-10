@@ -12,18 +12,18 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
-import net.mcreator.chemiemod.item.TitanItem;
 import net.mcreator.chemiemod.item.TitanIngotItem;
+import net.mcreator.chemiemod.item.TitanArmorItem;
 import net.mcreator.chemiemod.ChemieModMod;
 
 public class ChemieModModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, ChemieModMod.MODID);
+	public static final RegistryObject<Item> TITAN = block(ChemieModModBlocks.TITAN);
 	public static final RegistryObject<Item> TITAN_INGOT = REGISTRY.register("titan_ingot", () -> new TitanIngotItem());
-	public static final RegistryObject<Item> TITANARMOR_HELMET = REGISTRY.register("titanarmor_helmet", () -> new TitanItem.Helmet());
-	public static final RegistryObject<Item> TITANARMOR_CHESTPLATE = REGISTRY.register("titanarmor_chestplate", () -> new TitanItem.Chestplate());
-	public static final RegistryObject<Item> TITANARMOR_LEGGINGS = REGISTRY.register("titanarmor_leggings", () -> new TitanItem.Leggings());
-	public static final RegistryObject<Item> TITANARMOR_BOOTS = REGISTRY.register("titanarmor_boots", () -> new TitanItem.Boots());
-	public static final RegistryObject<Item> HURED = block(ChemieModModBlocks.HURED);
+	public static final RegistryObject<Item> TITAN_ARMOR_HELMET = REGISTRY.register("titan_armor_helmet", () -> new TitanArmorItem.Helmet());
+	public static final RegistryObject<Item> TITAN_ARMOR_CHESTPLATE = REGISTRY.register("titan_armor_chestplate", () -> new TitanArmorItem.Chestplate());
+	public static final RegistryObject<Item> TITAN_ARMOR_LEGGINGS = REGISTRY.register("titan_armor_leggings", () -> new TitanArmorItem.Leggings());
+	public static final RegistryObject<Item> TITAN_ARMOR_BOOTS = REGISTRY.register("titan_armor_boots", () -> new TitanArmorItem.Boots());
 
 	// Start of user code block custom items
 	// End of user code block custom items

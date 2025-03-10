@@ -1,100 +1,137 @@
 {
   "_fv": 73,
-  "_type": "armor",
+  "_type": "block",
   "definition": {
-    "enableHelmet": true,
-    "textureHelmet": "titanarmor_head",
-    "enableBody": true,
-    "textureBody": "titanarmor_body",
-    "enableLeggings": true,
-    "textureLeggings": "titanarmor_leggings",
-    "enableBoots": true,
-    "textureBoots": "titanarmor_boots",
-    "creativeTabs": [
+    "texture": "titanium-ore",
+    "textureTop": "titanium-ore",
+    "textureLeft": "titanium-ore",
+    "textureFront": "titanium-ore",
+    "textureRight": "titanium-ore",
+    "textureBack": "titanium-ore",
+    "renderType": 10,
+    "customModelName": "Normal",
+    "rotationMode": 0,
+    "enablePitch": false,
+    "emissiveRendering": false,
+    "displayFluidOverlay": false,
+    "itemTexture": "",
+    "particleTexture": "",
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "hasTransparency": false,
+    "connectedSides": false,
+    "transparencyType": "SOLID",
+    "disableOffset": false,
+    "boundingBoxes": [
       {
-        "value": "COMBAT"
+        "mx": 0.0,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 16.0,
+        "My": 16.0,
+        "Mz": 16.0,
+        "subtract": false
       }
     ],
-    "armorTextureFile": "titanarmor",
-    "helmetName": "Titan Helmet",
-    "bodyName": "Titan Chestplate",
-    "leggingsName": "Titan Leggins",
-    "bootsName": "Titan Boots",
-    "helmetSpecialInformation": {
+    "customProperties": [],
+    "name": "Titan Ore",
+    "specialInformation": {
       "fixedValue": []
     },
-    "bodySpecialInformation": {
-      "fixedValue": []
+    "hardness": 3.0,
+    "resistance": 5.0,
+    "hasGravity": false,
+    "isWaterloggable": false,
+    "creativeTabs": [
+      {
+        "value": "DECORATIONS"
+      }
+    ],
+    "destroyTool": "pickaxe",
+    "customDrop": {
+      "value": "CUSTOM:TitanIngot"
     },
-    "leggingsSpecialInformation": {
-      "fixedValue": []
+    "dropAmount": 1,
+    "useLootTableForDrops": false,
+    "requiresCorrectTool": true,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": false,
+    "canRedstoneConnect": false,
+    "lightOpacity": 15,
+    "material": {
+      "value": "NONE"
     },
-    "bootsSpecialInformation": {
-      "fixedValue": []
+    "tickRate": 0,
+    "tickRandomly": false,
+    "isReplaceable": false,
+    "canProvidePower": false,
+    "emittedRedstonePower": {
+      "fixedValue": 15.0
     },
-    "helmetModelName": "Default",
-    "helmetModelPart": "Helmet",
-    "helmetModelTexture": "From armor",
-    "bodyModelName": "Default",
-    "bodyModelPart": "Body",
-    "armsModelPartL": "Arms L",
-    "armsModelPartR": "Arms R",
-    "bodyModelTexture": "From armor",
-    "leggingsModelName": "Default",
-    "leggingsModelPartL": "Leggings L",
-    "leggingsModelPartR": "Leggings R",
-    "leggingsModelTexture": "From armor",
-    "bootsModelName": "Default",
-    "bootsModelPartL": "Boots L",
-    "bootsModelPartR": "Boots R",
-    "bootsModelTexture": "From armor",
-    "helmetItemRenderType": 0,
-    "helmetItemCustomModelName": "Normal",
-    "bodyItemRenderType": 0,
-    "bodyItemCustomModelName": "Normal",
-    "leggingsItemRenderType": 0,
-    "leggingsItemCustomModelName": "Normal",
-    "bootsItemRenderType": 0,
-    "bootsItemCustomModelName": "Normal",
-    "helmetImmuneToFire": false,
-    "bodyImmuneToFire": false,
-    "leggingsImmuneToFire": false,
-    "bootsImmuneToFire": false,
-    "helmetGlowCondition": {
-      "fixedValue": false
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
     },
-    "bodyGlowCondition": {
-      "fixedValue": false
+    "offsetType": "NONE",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "isLadder": false,
+    "slipperiness": 0.6,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "reactionToPushing": "NORMAL",
+    "isNotColidable": false,
+    "isCustomSoundType": false,
+    "soundOnStep": {
+      "value": "STONE"
     },
-    "leggingsGlowCondition": {
-      "fixedValue": false
+    "breakSound": {
+      "value": ""
     },
-    "bootsGlowCondition": {
-      "fixedValue": false
+    "fallSound": {
+      "value": ""
     },
-    "helmetPiglinNeutral": {
-      "fixedValue": false
+    "hitSound": {
+      "value": ""
     },
-    "bodyPiglinNeutral": {
-      "fixedValue": false
+    "placeSound": {
+      "value": ""
     },
-    "leggingsPiglinNeutral": {
-      "fixedValue": false
+    "stepSound": {
+      "value": ""
     },
-    "bootsPiglinNeutral": {
-      "fixedValue": false
-    },
-    "maxDamage": 35,
-    "damageValueHelmet": 3,
-    "damageValueBody": 7,
-    "damageValueLeggings": 6,
-    "damageValueBoots": 3,
-    "enchantability": 20,
-    "toughness": 2.0,
-    "knockbackResistance": 0.1,
-    "equipSound": {
-      "value": "item.armor.equip_iron"
-    },
-    "repairItems": []
+    "luminance": 0,
+    "unbreakable": false,
+    "vanillaToolTier": "IRON",
+    "isBonemealable": false,
+    "hasInventory": false,
+    "openGUIOnRightClick": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [],
+    "inventoryInSlotIDs": [],
+    "hasEnergyStorage": false,
+    "energyInitial": 0,
+    "energyCapacity": 400000,
+    "energyMaxReceive": 200,
+    "energyMaxExtract": 200,
+    "isFluidTank": false,
+    "fluidCapacity": 8000,
+    "fluidRestrictions": [],
+    "generateFeature": true,
+    "restrictionBiomes": [],
+    "blocksToReplace": [
+      {
+        "value": "TAG:stone_ore_replaceables"
+      }
+    ],
+    "generationShape": "UNIFORM",
+    "frequencyPerChunks": 5,
+    "frequencyOnChunk": 10,
+    "minGenerateHeight": -32,
+    "maxGenerateHeight": 32
   }
 }

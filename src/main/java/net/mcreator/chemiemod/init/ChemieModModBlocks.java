@@ -10,12 +10,12 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
-import net.mcreator.chemiemod.block.HuredBlock;
+import net.mcreator.chemiemod.block.TitanBlock;
 import net.mcreator.chemiemod.ChemieModMod;
 
 public class ChemieModModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, ChemieModMod.MODID);
-	public static final RegistryObject<Block> HURED = REGISTRY.register("hured", () -> new HuredBlock());
+	public static final RegistryObject<Block> TITAN = REGISTRY.register("titan", () -> new TitanBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }
