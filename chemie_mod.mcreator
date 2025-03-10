@@ -22,7 +22,12 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Metalle",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "chemie_mod",
