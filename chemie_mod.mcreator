@@ -24,7 +24,7 @@
           "src/main/java/net/mcreator/chemiemod/item/TitanIngotItem.java"
         ]
       },
-      "path": "~/Metalle"
+      "path": "~/Metalle/Titan"
     },
     {
       "name": "Titanarmor",
@@ -40,8 +40,7 @@
           "src/main/resources/assets/chemie_mod/models/item/titanarmor_boots.json",
           "src/main/resources/assets/chemie_mod/models/item/titanarmor_helmet.json"
         ]
-      },
-      "path": "~/Metalle/Titan"
+      }
     },
     {
       "name": "Hured",
