@@ -54,11 +54,11 @@
       "registry_name": "titan_armor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemie_mod/models/item/titan_armor_leggings.json",
-          "src/main/resources/assets/chemie_mod/models/item/titan_armor_boots.json",
           "src/main/resources/assets/chemie_mod/models/item/titan_armor_chestplate.json",
-          "src/main/resources/assets/chemie_mod/models/item/titan_armor_helmet.json",
-          "src/main/java/net/mcreator/chemiemod/item/TitanArmorItem.java"
+          "src/main/resources/assets/chemie_mod/models/item/titan_armor_boots.json",
+          "src/main/java/net/mcreator/chemiemod/item/TitanArmorItem.java",
+          "src/main/resources/assets/chemie_mod/models/item/titan_armor_leggings.json",
+          "src/main/resources/assets/chemie_mod/models/item/titan_armor_helmet.json"
         ]
       },
       "path": "~/Metalle/Titan"
