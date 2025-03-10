@@ -1,11 +1,17 @@
 
 package net.mcreator.chemiemod.item;
 
-import java.util.function.Consumer;
-import net.minecraft.client.model.Model;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ArmorMaterial;
+import net.minecraft.world.item.ArmorItem;
+import net.minecraft.world.entity.EquipmentSlot;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.sounds.SoundEvent;
 
 public abstract class TitanarmorItem extends ArmorItem {
-
 	public TitanarmorItem(ArmorItem.Type type, Item.Properties properties) {
 		super(new ArmorMaterial() {
 			@Override
@@ -51,7 +57,6 @@ public abstract class TitanarmorItem extends ArmorItem {
 	}
 
 	public static class Helmet extends TitanarmorItem {
-
 		public Helmet() {
 			super(ArmorItem.Type.HELMET, new Item.Properties());
 		}
@@ -60,11 +65,9 @@ public abstract class TitanarmorItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "chemie_mod:textures/models/armor/titanarmor_layer_1.png";
 		}
-
 	}
 
 	public static class Chestplate extends TitanarmorItem {
-
 		public Chestplate() {
 			super(ArmorItem.Type.CHESTPLATE, new Item.Properties());
 		}
@@ -73,11 +76,9 @@ public abstract class TitanarmorItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "chemie_mod:textures/models/armor/titanarmor_layer_1.png";
 		}
-
 	}
 
 	public static class Leggings extends TitanarmorItem {
-
 		public Leggings() {
 			super(ArmorItem.Type.LEGGINGS, new Item.Properties());
 		}
@@ -86,11 +87,9 @@ public abstract class TitanarmorItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "chemie_mod:textures/models/armor/titanarmor_layer_2.png";
 		}
-
 	}
 
 	public static class Boots extends TitanarmorItem {
-
 		public Boots() {
 			super(ArmorItem.Type.BOOTS, new Item.Properties());
 		}
@@ -99,7 +98,5 @@ public abstract class TitanarmorItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "chemie_mod:textures/models/armor/titanarmor_layer_1.png";
 		}
-
 	}
-
 }
