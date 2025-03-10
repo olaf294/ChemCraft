@@ -24,10 +24,10 @@ public class ChemieModModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(ChemieModModItems.TITAN_INGOT.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
-			tabData.accept(ChemieModModItems.TITAN_HELMET.get());
-			tabData.accept(ChemieModModItems.TITAN_CHESTPLATE.get());
-			tabData.accept(ChemieModModItems.TITAN_LEGGINGS.get());
-			tabData.accept(ChemieModModItems.TITAN_BOOTS.get());
+			tabData.accept(ChemieModModItems.TITANARMOR_HELMET.get());
+			tabData.accept(ChemieModModItems.TITANARMOR_CHESTPLATE.get());
+			tabData.accept(ChemieModModItems.TITANARMOR_LEGGINGS.get());
+			tabData.accept(ChemieModModItems.TITANARMOR_BOOTS.get());
 		}
 	}
 }

@@ -1,7 +1,7 @@
 {
-  "item.chemie_mod.titan_helmet": "Titan Helmet",
+  "item.chemie_mod.titanarmor_leggings": "Titan Leggings",
+  "item.chemie_mod.titanarmor_chestplate": "Titan Chestplate",
+  "item.chemie_mod.titanarmor_helmet": "Titan Helmet",
   "block.chemie_mod.titan": "Titan Ore",
-  "item.chemie_mod.titan_boots": "Titan Boots",
-  "item.chemie_mod.titan_leggings": "Titan Leggins",
-  "item.chemie_mod.titan_chestplate": "Titan Chestplate"
+  "item.chemie_mod.titanarmor_boots": "Titan Boots"
 }

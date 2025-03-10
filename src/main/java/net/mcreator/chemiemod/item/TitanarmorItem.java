@@ -1,12 +1,18 @@
 
 package net.mcreator.chemiemod.item;
 
-import java.util.function.Consumer;
-import net.minecraft.client.model.Model;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ArmorMaterial;
+import net.minecraft.world.item.ArmorItem;
+import net.minecraft.world.entity.EquipmentSlot;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.sounds.SoundEvent;
 
-public abstract class TitanItem extends ArmorItem {
-
-	public TitanItem(ArmorItem.Type type, Item.Properties properties) {
+public abstract class TitanarmorItem extends ArmorItem {
+	public TitanarmorItem(ArmorItem.Type type, Item.Properties properties) {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForType(ArmorItem.Type type) {
@@ -25,7 +31,7 @@ public abstract class TitanItem extends ArmorItem {
 
 			@Override
 			public SoundEvent getEquipSound() {
-				return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.armor.equip_iron"));
+				return SoundEvents.EMPTY;
 			}
 
 			@Override
@@ -35,23 +41,22 @@ public abstract class TitanItem extends ArmorItem {
 
 			@Override
 			public String getName() {
-				return "titan";
+				return "titanarmor";
 			}
 
 			@Override
 			public float getToughness() {
-				return 2f;
+				return 2.5f;
 			}
 
 			@Override
 			public float getKnockbackResistance() {
-				return 0.1f;
+				return 0f;
 			}
 		}, type, properties);
 	}
 
-	public static class Helmet extends TitanItem {
-
+	public static class Helmet extends TitanarmorItem {
 		public Helmet() {
 			super(ArmorItem.Type.HELMET, new Item.Properties());
 		}
@@ -60,11 +65,9 @@ public abstract class TitanItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "chemie_mod:textures/models/armor/titanarmor_layer_1.png";
 		}
-
 	}
 
-	public static class Chestplate extends TitanItem {
-
+	public static class Chestplate extends TitanarmorItem {
 		public Chestplate() {
 			super(ArmorItem.Type.CHESTPLATE, new Item.Properties());
 		}
@@ -73,11 +76,9 @@ public abstract class TitanItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "chemie_mod:textures/models/armor/titanarmor_layer_1.png";
 		}
-
 	}
 
-	public static class Leggings extends TitanItem {
-
+	public static class Leggings extends TitanarmorItem {
 		public Leggings() {
 			super(ArmorItem.Type.LEGGINGS, new Item.Properties());
 		}
@@ -86,11 +87,9 @@ public abstract class TitanItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "chemie_mod:textures/models/armor/titanarmor_layer_2.png";
 		}
-
 	}
 
-	public static class Boots extends TitanItem {
-
+	public static class Boots extends TitanarmorItem {
 		public Boots() {
 			super(ArmorItem.Type.BOOTS, new Item.Properties());
 		}
@@ -99,7 +98,5 @@ public abstract class TitanItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "chemie_mod:textures/models/armor/titanarmor_layer_1.png";
 		}
-
 	}
-
 }

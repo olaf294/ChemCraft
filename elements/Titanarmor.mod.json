@@ -18,7 +18,7 @@
     "armorTextureFile": "titanarmor",
     "helmetName": "Titan Helmet",
     "bodyName": "Titan Chestplate",
-    "leggingsName": "Titan Leggins",
+    "leggingsName": "Titan Leggings",
     "bootsName": "Titan Boots",
     "helmetSpecialInformation": {
       "fixedValue": []
@@ -90,10 +90,10 @@
     "damageValueLeggings": 6,
     "damageValueBoots": 3,
     "enchantability": 20,
-    "toughness": 2.0,
-    "knockbackResistance": 0.1,
+    "toughness": 2.5,
+    "knockbackResistance": 0.0,
     "equipSound": {
-      "value": "item.armor.equip_iron"
+      "value": ""
     },
     "repairItems": []
   }
