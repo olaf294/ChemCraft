@@ -19,6 +19,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.chemiemod.init.ChemieModModTabs;
 import net.mcreator.chemiemod.init.ChemieModModItems;
+import net.mcreator.chemiemod.init.ChemieModModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -39,6 +40,8 @@ public class ChemieModMod {
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		ChemieModModBlocks.REGISTRY.register(bus);
 
 		ChemieModModItems.REGISTRY.register(bus);
 

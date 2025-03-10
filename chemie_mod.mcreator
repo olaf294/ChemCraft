@@ -24,7 +24,7 @@
           "src/main/java/net/mcreator/chemiemod/item/TitanIngotItem.java"
         ]
       },
-      "path": "~/Metalle"
+      "path": "~/Metalle/Titan"
     },
     {
       "name": "Titan",
@@ -42,6 +42,22 @@
         ]
       },
       "path": "~/Metalle/Titan"
+    },
+    {
+      "name": "Hured",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hured",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemie_mod/blockstates/hured.json",
+          "src/main/java/net/mcreator/chemiemod/block/HuredBlock.java",
+          "src/main/resources/data/chemie_mod/loot_tables/blocks/hured.json",
+          "src/main/resources/assets/chemie_mod/models/item/hured.json",
+          "src/main/resources/assets/chemie_mod/models/block/hured.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -55,6 +71,7 @@
       "item.chemie_mod.titanarmor_helmet": "Titan Helmet",
       "block.chemie_mod.titan": "Titan Ore",
       "item.chemie_mod.titanarmor_boots": "Titan Boots",
+      "block.chemie_mod.hured": "Hured",
       "item.chemie_mod.titan_ingot": "Titan Ingot"
     }
   },
