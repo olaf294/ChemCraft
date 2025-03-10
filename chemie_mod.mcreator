@@ -31,14 +31,14 @@
       "type": "armor",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "titan",
+      "registry_name": "titanarmor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemie_mod/models/item/titan_leggings.json",
-          "src/main/resources/assets/chemie_mod/models/item/titan_helmet.json",
-          "src/main/resources/assets/chemie_mod/models/item/titan_boots.json",
+          "src/main/resources/assets/chemie_mod/models/item/titanarmor_chestplate.json",
+          "src/main/resources/assets/chemie_mod/models/item/titanarmor_leggings.json",
+          "src/main/resources/assets/chemie_mod/models/item/titanarmor_boots.json",
           "src/main/java/net/mcreator/chemiemod/item/TitanItem.java",
-          "src/main/resources/assets/chemie_mod/models/item/titan_chestplate.json"
+          "src/main/resources/assets/chemie_mod/models/item/titanarmor_helmet.json"
         ]
       },
       "path": "~/Metalle/Titan"
@@ -50,11 +50,12 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item.chemie_mod.titan_helmet": "Titan Helmet",
+      "item.chemie_mod.titanarmor_leggings": "Titan Leggins",
+      "item.chemie_mod.titanarmor_chestplate": "Titan Chestplate",
+      "item.chemie_mod.titanarmor_helmet": "Titan Helmet",
       "block.chemie_mod.titan": "Titan Ore",
-      "item.chemie_mod.titan_boots": "Titan Boots",
-      "item.chemie_mod.titan_leggings": "Titan Leggins",
-      "item.chemie_mod.titan_chestplate": "Titan Chestplate"
+      "item.chemie_mod.titanarmor_boots": "Titan Boots",
+      "item.chemie_mod.titan_ingot": "Titan Ingot"
     }
   },
   "foldersRoot": {
