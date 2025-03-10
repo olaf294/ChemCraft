@@ -21,7 +21,9 @@ public class ChemieModModTabs {
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
-		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
+		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+			tabData.accept(ChemieModModItems.TITAN_INGOT.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(ChemieModModItems.TITAN_HELMET.get());
 			tabData.accept(ChemieModModItems.TITAN_CHESTPLATE.get());
 			tabData.accept(ChemieModModItems.TITAN_LEGGINGS.get());

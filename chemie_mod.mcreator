@@ -13,6 +13,20 @@
       }
     },
     {
+      "name": "TitanIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titan_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemie_mod/models/item/titan_ingot.json",
+          "src/main/java/net/mcreator/chemiemod/item/TitanIngotItem.java"
+        ]
+      },
+      "path": "~/Metalle"
+    },
+    {
       "name": "Titan",
       "type": "armor",
       "compiles": true,
@@ -37,6 +51,7 @@
   "language_map": {
     "en_us": {
       "item.chemie_mod.titan_helmet": "Titan Helmet",
+      "block.chemie_mod.titan": "Titan Ore",
       "item.chemie_mod.titan_boots": "Titan Boots",
       "item.chemie_mod.titan_leggings": "Titan Leggins",
       "item.chemie_mod.titan_chestplate": "Titan Chestplate"
