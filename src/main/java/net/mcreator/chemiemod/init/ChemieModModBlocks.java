@@ -15,7 +15,7 @@ import net.mcreator.chemiemod.ChemieModMod;
 
 public class ChemieModModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, ChemieModMod.MODID);
-	public static final RegistryObject<Block> TITAN = REGISTRY.register("titan", () -> new TitanBlock());
+	public static final RegistryObject<Block> TITANORE = REGISTRY.register("titanore", () -> new TitanBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

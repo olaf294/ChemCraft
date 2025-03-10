@@ -3,6 +3,6 @@
   "biomes": {
     "type": "forge:any"
   },
-  "features": "chemie_mod:titan",
+  "features": "chemie_mod:titanore",
   "step": "underground_ores"
 }

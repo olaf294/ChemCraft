@@ -1,6 +1,6 @@
 {
   "type": "minecraft:block",
-  "random_sequence": "chemie_mod:blocks/titan",
+  "random_sequence": "chemie_mod:blocks/titanore",
   "pools": [
     {
       "rolls": 1.0,

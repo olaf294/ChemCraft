@@ -1,5 +1,5 @@
 {
-  "parent": "chemie_mod:block/titan",
+  "parent": "chemie_mod:block/titanore",
   "display": {
     "thirdperson": {
       "rotation": [
