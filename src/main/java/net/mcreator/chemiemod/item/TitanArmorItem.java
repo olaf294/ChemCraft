@@ -67,7 +67,7 @@ public abstract class TitanArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "chemie_mod:textures/models/armor/titan_armor_texture_layer_1.png";
+			return "chemie_mod:textures/models/armor/titan_armor_layer_1.png";
 		}
 	}
 
@@ -78,7 +78,7 @@ public abstract class TitanArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "chemie_mod:textures/models/armor/titan_armor_texture_layer_1.png";
+			return "chemie_mod:textures/models/armor/titan_armor_layer_1.png";
 		}
 	}
 
@@ -89,7 +89,7 @@ public abstract class TitanArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "chemie_mod:textures/models/armor/titan_armor_texture_layer_2.png";
+			return "chemie_mod:textures/models/armor/titan_armor_layer_2.png";
 		}
 	}
 
@@ -100,7 +100,7 @@ public abstract class TitanArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "chemie_mod:textures/models/armor/titan_armor_texture_layer_1.png";
+			return "chemie_mod:textures/models/armor/titan_armor_layer_1.png";
 		}
 	}
 }

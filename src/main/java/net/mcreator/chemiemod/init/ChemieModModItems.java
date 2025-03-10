@@ -29,7 +29,7 @@ public class ChemieModModItems {
 	public static final RegistryObject<Item> TITAN_ARMOR_BOOTS = REGISTRY.register("titan_armor_boots", () -> new TitanArmorItem.Boots());
 	public static final RegistryObject<Item> TITAN_PICKAXE = REGISTRY.register("titan_pickaxe", () -> new TitanPickaxeItem());
 	public static final RegistryObject<Item> TITANSWORD = REGISTRY.register("titansword", () -> new TitanswordItem());
-	public static final RegistryObject<Item> TITAN_AXE = REGISTRY.register("titan_axe", () -> new TItanAxeItem());
+	public static final RegistryObject<Item> T_ITAN_AXE = REGISTRY.register("t_itan_axe", () -> new TItanAxeItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

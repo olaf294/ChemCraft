@@ -1,14 +1,6 @@
 
 package net.mcreator.chemiemod.item;
 
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.PickaxeItem;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-
-import net.mcreator.chemiemod.init.ChemieModModItems;
-
 public class TitanPickaxeItem extends PickaxeItem {
 	public TitanPickaxeItem() {
 		super(new Tier() {
