@@ -1,6 +1,14 @@
 
 package net.mcreator.chemiemod.item;
 
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+
+import net.mcreator.chemiemod.init.ChemieModModItems;
+
 public class TitanswordItem extends SwordItem {
 	public TitanswordItem() {
 		super(new Tier() {
