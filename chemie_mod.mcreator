@@ -11,14 +11,58 @@
           "src/main/java/net/mcreator/chemiemod/command/TestcommandCommand.java"
         ]
       }
+    },
+    {
+      "name": "Titan",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titan",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemie_mod/blockstates/titan.json",
+          "src/main/resources/data/chemie_mod/forge/biome_modifier/titan_biome_modifier.json",
+          "src/main/resources/data/chemie_mod/loot_tables/blocks/titan.json",
+          "src/main/resources/assets/chemie_mod/models/item/titan.json",
+          "src/main/java/net/mcreator/chemiemod/block/TitanBlock.java",
+          "src/main/resources/data/chemie_mod/worldgen/configured_feature/titan.json",
+          "src/main/resources/data/chemie_mod/worldgen/placed_feature/titan.json",
+          "src/main/resources/assets/chemie_mod/models/block/titan.json"
+        ]
+      },
+      "path": "~/Metalle"
+    },
+    {
+      "name": "TitanIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titan_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemiemod/item/TitanIngotItem.java",
+          "src/main/resources/assets/chemie_mod/models/item/titan_ingot.json"
+        ]
+      },
+      "path": "~/Metalle"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:Titan"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Titan"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.chemie_mod.titan": "Titan Ore",
+      "item.chemie_mod.titan_ingot": "Titan Ingot"
+    }
   },
   "foldersRoot": {
     "name": "~",
