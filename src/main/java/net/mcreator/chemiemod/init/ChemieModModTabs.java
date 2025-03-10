@@ -30,6 +30,8 @@ public class ChemieModModTabs {
 			tabData.accept(ChemieModModItems.TITAN_ARMOR_CHESTPLATE.get());
 			tabData.accept(ChemieModModItems.TITAN_ARMOR_LEGGINGS.get());
 			tabData.accept(ChemieModModItems.TITAN_ARMOR_BOOTS.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+			tabData.accept(ChemieModModItems.TITANSWORD.get());
 		}
 	}
 }

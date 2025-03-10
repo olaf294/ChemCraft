@@ -62,6 +62,20 @@
         ]
       },
       "path": "~/Metalle/Titan"
+    },
+    {
+      "name": "Titansword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titansword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemie_mod/models/item/titansword.json",
+          "src/main/java/net/mcreator/chemiemod/item/TitanswordItem.java"
+        ]
+      },
+      "path": "~/Metalle/Titan"
     }
   ],
   "variable_elements": [],
@@ -72,6 +86,9 @@
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:Titan"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:Titansword"
     ]
   },
   "tab_element_order": {},
@@ -82,7 +99,8 @@
       "block.chemie_mod.titan": "Titan Ore",
       "item.chemie_mod.titan_armor_helmet": "Titan Armor Helmet",
       "item.chemie_mod.titan_ingot": "Titan Ingot",
-      "item.chemie_mod.titan_armor_leggings": "Titan Armor Leggings"
+      "item.chemie_mod.titan_armor_leggings": "Titan Armor Leggings",
+      "item.chemie_mod.titansword": "Titansword"
     }
   },
   "foldersRoot": {
