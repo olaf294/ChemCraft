@@ -11,6 +11,23 @@
           "src/main/java/net/mcreator/chemiemod/command/TestcommandCommand.java"
         ]
       }
+    },
+    {
+      "name": "Titan",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titan",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemie_mod/models/item/titan_leggings.json",
+          "src/main/resources/assets/chemie_mod/models/item/titan_helmet.json",
+          "src/main/resources/assets/chemie_mod/models/item/titan_boots.json",
+          "src/main/java/net/mcreator/chemiemod/item/TitanItem.java",
+          "src/main/resources/assets/chemie_mod/models/item/titan_chestplate.json"
+        ]
+      },
+      "path": "~/Metalle/Titan"
     }
   ],
   "variable_elements": [],
@@ -18,7 +35,12 @@
   "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.chemie_mod.titan_helmet": "Titan Helmet",
+      "item.chemie_mod.titan_boots": "Titan Boots",
+      "item.chemie_mod.titan_leggings": "Titan Leggins",
+      "item.chemie_mod.titan_chestplate": "Titan Chestplate"
+    }
   },
   "foldersRoot": {
     "name": "~",
