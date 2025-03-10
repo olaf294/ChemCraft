@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "chemie_mod:t_itan_axe",
     "chemie_mod:titan_pickaxe"
   ]
 }

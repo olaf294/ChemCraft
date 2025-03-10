@@ -33,6 +33,7 @@ public class ChemieModModTabs {
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(ChemieModModItems.TITAN_PICKAXE.get());
 			tabData.accept(ChemieModModItems.TITANSWORD.get());
+			tabData.accept(ChemieModModItems.T_ITAN_AXE.get());
 		}
 	}
 }
