@@ -8,7 +8,9 @@ import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
 
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.chemiemod.item.TitanarmorItem;
 import net.mcreator.chemiemod.item.TitanIngotItem;
@@ -21,6 +23,11 @@ public class ChemieModModItems {
 	public static final RegistryObject<Item> TITANARMOR_CHESTPLATE = REGISTRY.register("titanarmor_chestplate", () -> new TitanarmorItem.Chestplate());
 	public static final RegistryObject<Item> TITANARMOR_LEGGINGS = REGISTRY.register("titanarmor_leggings", () -> new TitanarmorItem.Leggings());
 	public static final RegistryObject<Item> TITANARMOR_BOOTS = REGISTRY.register("titanarmor_boots", () -> new TitanarmorItem.Boots());
+	public static final RegistryObject<Item> HURED = block(ChemieModModBlocks.HURED);
+
 	// Start of user code block custom items
 	// End of user code block custom items
+	private static RegistryObject<Item> block(RegistryObject<Block> block) {
+		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
+	}
 }
