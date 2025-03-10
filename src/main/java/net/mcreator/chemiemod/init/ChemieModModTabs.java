@@ -25,6 +25,11 @@ public class ChemieModModTabs {
 			tabData.accept(ChemieModModBlocks.TITAN.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(ChemieModModItems.TITAN_INGOT.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
+			tabData.accept(ChemieModModItems.TITAN_ARMOR_HELMET.get());
+			tabData.accept(ChemieModModItems.TITAN_ARMOR_CHESTPLATE.get());
+			tabData.accept(ChemieModModItems.TITAN_ARMOR_LEGGINGS.get());
+			tabData.accept(ChemieModModItems.TITAN_ARMOR_BOOTS.get());
 		}
 	}
 }
