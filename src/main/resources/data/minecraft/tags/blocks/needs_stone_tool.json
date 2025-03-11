@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "chemie_mod:calcium_ore",
+    "chemie_mod:potassium_ore",
     "chemie_mod:natrium_ore"
   ]
 }

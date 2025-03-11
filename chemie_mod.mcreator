@@ -555,12 +555,117 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "PotassiumIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potassium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemiemod/item/PotassiumIngotItem.java",
+          "src/main/resources/assets/chemie_mod/models/item/potassium_ingot.json"
+        ]
+      },
+      "path": "~/Metalle/Kalium"
+    },
+    {
+      "name": "PotassiumOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potassium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemie_mod/blockstates/potassium_ore.json",
+          "src/main/resources/assets/chemie_mod/models/item/potassium_ore.json",
+          "src/main/resources/assets/chemie_mod/models/block/potassium_ore.json",
+          "src/main/java/net/mcreator/chemiemod/block/PotassiumOreBlock.java",
+          "src/main/resources/data/chemie_mod/loot_tables/blocks/potassium_ore.json"
+        ]
+      },
+      "path": "~/Metalle/Kalium"
+    },
+    {
+      "name": "CalciumIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "calcium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemie_mod/models/item/calcium_ingot.json",
+          "src/main/java/net/mcreator/chemiemod/item/CalciumIngotItem.java"
+        ]
+      },
+      "path": "~/Metalle/Calcium"
+    },
+    {
+      "name": "CalciumOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "calcium_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemiemod/block/CalciumOreBlock.java",
+          "src/main/resources/assets/chemie_mod/models/item/calcium_ore.json",
+          "src/main/resources/assets/chemie_mod/models/block/calcium_ore.json",
+          "src/main/resources/data/chemie_mod/loot_tables/blocks/calcium_ore.json",
+          "src/main/resources/assets/chemie_mod/blockstates/calcium_ore.json"
+        ]
+      },
+      "path": "~/Metalle/Calcium"
+    },
+    {
+      "name": "SilverIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemie_mod/models/item/silver_ingot.json",
+          "src/main/java/net/mcreator/chemiemod/item/SilverIngotItem.java"
+        ]
+      },
+      "path": "~/Metalle/Silber"
+    },
+    {
+      "name": "SilverOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemiemod/block/SilverOreBlock.java",
+          "src/main/resources/data/chemie_mod/loot_tables/blocks/silver_ore.json",
+          "src/main/resources/assets/chemie_mod/models/item/silver_ore.json",
+          "src/main/resources/assets/chemie_mod/models/block/silver_ore.json",
+          "src/main/resources/assets/chemie_mod/blockstates/silver_ore.json"
+        ]
+      },
+      "path": "~/Metalle/Silber"
+    },
+    {
+      "name": "VillagerTrade1",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "villager_trade_1",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Villager"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:SilverOre",
       "~CUSTOM:MagnesiumOre",
       "~CUSTOM:Titan"
     ],
@@ -569,6 +674,9 @@
       "~CUSTOM:UraniumOre"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:SilverOre",
+      "~CUSTOM:CalciumOre",
+      "~CUSTOM:PotassiumOre",
       "~CUSTOM:LithiumOre",
       "~CUSTOM:UraniumOre",
       "~CUSTOM:NatriumOre",
@@ -576,6 +684,8 @@
       "~CUSTOM:Titan"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:CalciumOre",
+      "~CUSTOM:PotassiumOre",
       "~CUSTOM:NatriumOre"
     ],
     "ITEMS:minecraft:pickaxes": [
@@ -602,10 +712,13 @@
       "item.chemie_mod.titan_armor_helmet": "Titan Helmet",
       "death.attack.acidburn": "%1$s was dissolved in acid :)",
       "item.chemie_mod.uranium_pickaxe": "Uranium Pickaxe",
+      "item.chemie_mod.potassium_ingot": "Potassium Ingot",
       "item.chemie_mod.natrium_ingot": " Sodium Chloride",
+      "block.chemie_mod.silver_ore": "Silver Ore",
       "block.chemie_mod.uranium_ore": "Uranium Ore",
       "item.chemie_mod.titan_armor_chestplate": "Titan Chestplate",
       "block.chemie_mod.natrium_ore": "Sodium Ore",
+      "block.chemie_mod.potassium_ore": "Potassium Ore",
       "item.chemie_mod.lithium_ingot": "Lithium Ingot",
       "painting.chemie_mod.giant_pse.title": "Giant PSE",
       "item.chemie_mod.titan_armor_leggings": "Titan Leggings",
@@ -619,11 +732,14 @@
       "block.chemie_mod.lithium_ore": "Lithium Ore",
       "block.chemie_mod.cokeoven": "Cokeoven",
       "item.chemie_mod.titan_hoe": "Titan Hoe",
+      "item.chemie_mod.calcium_ingot": "Calcium Ingot",
       "item.chemie_mod.titan_ingot": "Titan Ingot",
       "painting.chemie_mod.pse.title": "PSE",
+      "item.chemie_mod.silver_ingot": "Silver Ingot",
       "block.chemie_mod.titanore": "Titan Ore",
       "death.attack.irradiated.item": "%1$s was killed by %2$s using %3$s",
       "block.chemie_mod.titan": "Titan Ore",
+      "block.chemie_mod.calcium_ore": "Calcium Ore",
       "item.chemie_mod.titan_pickaxe": "Titan Pickaxe",
       "item.chemie_mod.t_itan_axe": "Titan Axe",
       "item.chemie_mod.magnisum_ingot": "Magnesium Ingot",
@@ -689,6 +805,10 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "Villager",
+        "children": []
       }
     ]
   },
