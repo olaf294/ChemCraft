@@ -439,6 +439,60 @@
         ]
       },
       "path": "~/Metalle/Uran"
+    },
+    {
+      "name": "UraniumPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemiemod/item/UraniumPickaxeItem.java",
+          "src/main/resources/assets/chemie_mod/models/item/uranium_pickaxe.json"
+        ]
+      },
+      "path": "~/Metalle/Uran"
+    },
+    {
+      "name": "UraniumSuperIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_super_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemie_mod/models/item/uranium_super_ingot.json",
+          "src/main/java/net/mcreator/chemiemod/item/UraniumSuperIngotItem.java"
+        ]
+      },
+      "path": "~/Metalle/Uran"
+    },
+    {
+      "name": "UraniumSuperIngotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_super_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemie_mod/recipes/uranium_super_ingot_recipe.json"
+        ]
+      },
+      "path": "~/Metalle/Uran"
+    },
+    {
+      "name": "UraniumPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemie_mod/recipes/uranium_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Metalle/Uran"
     }
   ],
   "variable_elements": [],
@@ -463,6 +517,7 @@
       "~CUSTOM:NatriumOre"
     ],
     "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:UraniumPickaxe",
       "~CUSTOM:TitanPickaxe"
     ],
     "ITEMS:minecraft:axes": [
@@ -484,6 +539,7 @@
       "item.chemie_mod.titan_shovel": "Titan Shovel",
       "item.chemie_mod.titan_armor_helmet": "Titan Helmet",
       "death.attack.acidburn": "%1$s was dissolved in acid :)",
+      "item.chemie_mod.uranium_pickaxe": "Uranium Pickaxe",
       "item.chemie_mod.natrium_ingot": "Natrium Ingot",
       "block.chemie_mod.uranium_ore": "Uranium Ore",
       "item.chemie_mod.titan_armor_chestplate": "Titan Chestplate",
@@ -492,6 +548,7 @@
       "item.chemie_mod.titan_armor_leggings": "Titan Leggings",
       "item.chemie_mod.titansword": "Titansword",
       "item_group.chemie_mod.chem_craft": "Chem Craft",
+      "item.chemie_mod.uranium_super_ingot": "Uranium Super Ingot",
       "item.chemie_mod.titan_armor_boots": "Titan Boots",
       "death.attack.irradiated": "%1$s was turned into a radioactive puddle :(",
       "block.chemie_mod.lithium_ore": "Lithium Ore",
