@@ -352,6 +352,19 @@
           "src/main/resources/data/chemie_mod/damage_type/acidburn.json"
         ]
       }
+    },
+    {
+      "name": "TitaningotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titaningot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemie_mod/recipes/titaningot_recipe.json"
+        ]
+      },
+      "path": "~/Metalle/Titan"
     }
   ],
   "variable_elements": [],
@@ -418,19 +431,11 @@
         "name": "Metalle",
         "children": [
           {
-            "name": "Titan",
-            "children": []
-          },
-          {
-            "name": "Magnesium",
-            "children": []
-          },
-          {
             "name": "Natrium",
             "children": []
           },
           {
-            "name": "Lithium",
+            "name": "Uran",
             "children": []
           },
           {
@@ -438,11 +443,15 @@
             "children": []
           },
           {
-            "name": "Calcium",
+            "name": "Magnesium",
             "children": []
           },
           {
-            "name": "Uran",
+            "name": "Lithium",
+            "children": []
+          },
+          {
+            "name": "Calcium",
             "children": []
           },
           {
@@ -451,6 +460,10 @@
           },
           {
             "name": "Barium",
+            "children": []
+          },
+          {
+            "name": "Titan",
             "children": []
           }
         ]
