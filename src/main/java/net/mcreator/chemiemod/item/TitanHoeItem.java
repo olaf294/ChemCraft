@@ -5,12 +5,12 @@ import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.AxeItem;
+import net.minecraft.world.item.HoeItem;
 
 import net.mcreator.chemiemod.init.ChemieModModItems;
 
-public class TItanAxeItem extends AxeItem {
-	public TItanAxeItem() {
+public class TitanHoeItem extends HoeItem {
+	public TitanHoeItem() {
 		super(new Tier() {
 			public int getUses() {
 				return 1600;
@@ -21,7 +21,7 @@ public class TItanAxeItem extends AxeItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 7f;
+				return 0f;
 			}
 
 			public int getLevel() {
@@ -35,6 +35,6 @@ public class TItanAxeItem extends AxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(ChemieModModItems.TITAN_INGOT.get()));
 			}
-		}, 1, -3.2f, new Item.Properties().fireResistant());
+		}, 0, -2f, new Item.Properties().fireResistant());
 	}
 }

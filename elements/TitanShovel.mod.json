@@ -2,13 +2,13 @@
   "_fv": 73,
   "_type": "tool",
   "definition": {
-    "toolType": "Axe",
+    "toolType": "Spade",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "titan_axe",
+    "texture": "titan_shovel",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
-    "name": "Titan Axe",
+    "name": "Titan Shovel",
     "specialInformation": {
       "fixedValue": []
     },
@@ -18,9 +18,9 @@
       }
     ],
     "efficiency": 7.0,
-    "attackSpeed": 0.8,
+    "attackSpeed": 1.0,
     "enchantability": 20,
-    "damageVsEntity": 9.0,
+    "damageVsEntity": 2.5,
     "usageCount": 1600,
     "glowCondition": {
       "fixedValue": false

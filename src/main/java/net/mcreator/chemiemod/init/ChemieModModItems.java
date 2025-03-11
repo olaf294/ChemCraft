@@ -13,8 +13,10 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.chemiemod.item.TitanswordItem;
+import net.mcreator.chemiemod.item.TitanShovelItem;
 import net.mcreator.chemiemod.item.TitanPickaxeItem;
 import net.mcreator.chemiemod.item.TitanIngotItem;
+import net.mcreator.chemiemod.item.TitanHoeItem;
 import net.mcreator.chemiemod.item.TitanArmorItem;
 import net.mcreator.chemiemod.item.TItanAxeItem;
 import net.mcreator.chemiemod.ChemieModMod;
@@ -30,6 +32,8 @@ public class ChemieModModItems {
 	public static final RegistryObject<Item> TITAN_PICKAXE = REGISTRY.register("titan_pickaxe", () -> new TitanPickaxeItem());
 	public static final RegistryObject<Item> TITANSWORD = REGISTRY.register("titansword", () -> new TitanswordItem());
 	public static final RegistryObject<Item> T_ITAN_AXE = REGISTRY.register("t_itan_axe", () -> new TItanAxeItem());
+	public static final RegistryObject<Item> TITAN_SHOVEL = REGISTRY.register("titan_shovel", () -> new TitanShovelItem());
+	public static final RegistryObject<Item> TITAN_HOE = REGISTRY.register("titan_hoe", () -> new TitanHoeItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

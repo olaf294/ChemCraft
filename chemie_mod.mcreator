@@ -71,8 +71,8 @@
       "registry_name": "titan_pickaxe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chemiemod/item/TitanPickaxeItem.java",
-          "src/main/resources/assets/chemie_mod/models/item/titan_pickaxe.json"
+          "src/main/resources/assets/chemie_mod/models/item/titan_pickaxe.json",
+          "src/main/java/net/mcreator/chemiemod/item/TitanPickaxeItem.java"
         ]
       },
       "path": "~/Metalle/Titan"
@@ -99,8 +99,36 @@
       "registry_name": "t_itan_axe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chemiemod/item/TItanAxeItem.java",
-          "src/main/resources/assets/chemie_mod/models/item/t_itan_axe.json"
+          "src/main/resources/assets/chemie_mod/models/item/t_itan_axe.json",
+          "src/main/java/net/mcreator/chemiemod/item/TItanAxeItem.java"
+        ]
+      },
+      "path": "~/Metalle/Titan"
+    },
+    {
+      "name": "TitanShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titan_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemie_mod/models/item/titan_shovel.json",
+          "src/main/java/net/mcreator/chemiemod/item/TitanShovelItem.java"
+        ]
+      },
+      "path": "~/Metalle/Titan"
+    },
+    {
+      "name": "TitanHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titan_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemiemod/item/TitanHoeItem.java",
+          "src/main/resources/assets/chemie_mod/models/item/titan_hoe.json"
         ]
       },
       "path": "~/Metalle/Titan"
@@ -116,24 +144,35 @@
       "~CUSTOM:Titan"
     ],
     "ITEMS:minecraft:pickaxes": [
-      "~CUSTOM:TItanAxe",
       "~CUSTOM:TitanPickaxe"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:TItanAxe"
     ],
     "ITEMS:minecraft:swords": [
       "~CUSTOM:Titansword"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:TitanHoe"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:TitanShovel"
     ]
   },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "item.chemie_mod.titan_armor_boots": "Titan Armor Boots",
+      "item.chemie_mod.titan_shovel": "Titan Shovel",
+      "item.chemie_mod.titan_armor_helmet": "Titan Armor Helmet",
+      "item.chemie_mod.titan_hoe": "Titan Hoe",
+      "item.chemie_mod.titan_ingot": "Titan Ingot",
       "item.chemie_mod.titan_armor_chestplate": "Titan Armor Chestplate",
       "block.chemie_mod.titanore": "Titan Ore",
-      "item.chemie_mod.titan_armor_boots": "Titan Armor Boots",
       "block.chemie_mod.titan": "Titan Ore",
       "item.chemie_mod.titan_pickaxe": "Titan Pickaxe",
-      "item.chemie_mod.titan_armor_helmet": "Titan Armor Helmet",
+      "item.chemie_mod.t_itan_axe": "Titan Axe",
       "item.chemie_mod.titan_axe": "Titan Axe",
-      "item.chemie_mod.titan_ingot": "Titan Ingot",
       "item.chemie_mod.titan_armor_leggings": "Titan Armor Leggings",
       "item.chemie_mod.titansword": "Titansword"
     }

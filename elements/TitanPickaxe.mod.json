@@ -5,7 +5,7 @@
     "toolType": "Pickaxe",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "titan_pickaxe",
+    "texture": "ti_pickaxe",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
     "name": "Titan Pickaxe",
@@ -18,8 +18,8 @@
       }
     ],
     "efficiency": 4.0,
-    "attackSpeed": 1.0,
-    "enchantability": 2,
+    "attackSpeed": 1.2000000000000002,
+    "enchantability": 20,
     "damageVsEntity": 5.0,
     "usageCount": 1600,
     "glowCondition": {
@@ -30,8 +30,8 @@
         "value": "CUSTOM:TitanIngot"
       }
     ],
-    "immuneToFire": false,
-    "blockDropsTier": "WOOD",
+    "immuneToFire": true,
+    "blockDropsTier": "DIAMOND",
     "blocksAffected": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
