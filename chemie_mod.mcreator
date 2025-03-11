@@ -210,6 +210,136 @@
         ]
       },
       "path": "~/Metalle/Natrium"
+    },
+    {
+      "name": "TitanArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titan_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemie_mod/recipes/titan_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Metalle/Titan"
+    },
+    {
+      "name": "TitanArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titan_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemie_mod/recipes/titan_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Metalle/Titan"
+    },
+    {
+      "name": "TitanArmorPantsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titan_armor_pants_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemie_mod/recipes/titan_armor_pants_recipe.json"
+        ]
+      },
+      "path": "~/Metalle/Titan"
+    },
+    {
+      "name": "TitanArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titan_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemie_mod/recipes/titan_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Metalle/Titan"
+    },
+    {
+      "name": "TitanswordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titansword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemie_mod/recipes/titansword_recipe.json"
+        ]
+      },
+      "path": "~/Metalle/Titan"
+    },
+    {
+      "name": "TitanpickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanpickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemie_mod/recipes/titanpickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Metalle/Titan"
+    },
+    {
+      "name": "TitanaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemie_mod/recipes/titanaxe_recipe.json"
+        ]
+      },
+      "path": "~/Metalle/Titan"
+    },
+    {
+      "name": "TitanaxeRecipeVariant",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanaxe_recipe_variant",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemie_mod/recipes/titanaxe_recipe_variant.json"
+        ]
+      },
+      "path": "~/Metalle/Titan"
+    },
+    {
+      "name": "TitanshovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanshovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemie_mod/recipes/titanshovel_recipe.json"
+        ]
+      },
+      "path": "~/Metalle/Titan"
+    },
+    {
+      "name": "TitanhoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanhoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemie_mod/recipes/titanhoe_recipe.json"
+        ]
+      },
+      "path": "~/Metalle/Titan"
     }
   ],
   "variable_elements": [],
@@ -247,13 +377,13 @@
   "language_map": {
     "en_us": {
       "item_group.chemie_mod.chem_craft": "Chem Craft",
-      "item.chemie_mod.titan_armor_boots": "Titan Armor Boots",
+      "item.chemie_mod.titan_armor_boots": "Titan Boots",
       "item.chemie_mod.titan_shovel": "Titan Shovel",
-      "item.chemie_mod.titan_armor_helmet": "Titan Armor Helmet",
+      "item.chemie_mod.titan_armor_helmet": "Titan Helmet",
       "item.chemie_mod.titan_hoe": "Titan Hoe",
       "item.chemie_mod.titan_ingot": "Titan Ingot",
       "item.chemie_mod.natrium_ingot": "Natrium Ingot",
-      "item.chemie_mod.titan_armor_chestplate": "Titan Armor Chestplate",
+      "item.chemie_mod.titan_armor_chestplate": "Titan Chestplate",
       "block.chemie_mod.natrium_ore": "Natrium Ore",
       "block.chemie_mod.titanore": "Titan Ore",
       "block.chemie_mod.titan": "Titan Ore",
@@ -261,7 +391,7 @@
       "item.chemie_mod.t_itan_axe": "Titan Axe",
       "item.chemie_mod.magnisum_ingot": "Magnisum Ingot",
       "item.chemie_mod.titan_axe": "Titan Axe",
-      "item.chemie_mod.titan_armor_leggings": "Titan Armor Leggings",
+      "item.chemie_mod.titan_armor_leggings": "Titan Leggings",
       "item.chemie_mod.titansword": "Titansword",
       "block.chemie_mod.magnesium_ore": "Magnesium Ore"
     }
