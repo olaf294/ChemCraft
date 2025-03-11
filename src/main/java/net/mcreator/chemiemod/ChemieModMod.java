@@ -19,6 +19,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.chemiemod.init.ChemieModModTabs;
 import net.mcreator.chemiemod.init.ChemieModModPaintings;
+import net.mcreator.chemiemod.init.ChemieModModMenus;
 import net.mcreator.chemiemod.init.ChemieModModItems;
 import net.mcreator.chemiemod.init.ChemieModModBlocks;
 
@@ -49,6 +50,8 @@ public class ChemieModMod {
 		ChemieModModTabs.REGISTRY.register(bus);
 
 		ChemieModModPaintings.REGISTRY.register(bus);
+
+		ChemieModModMenus.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

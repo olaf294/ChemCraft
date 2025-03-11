@@ -42,5 +42,7 @@ public class ChemieModModTabs {
 				tabData.accept(ChemieModModBlocks.COKEOVEN.get().asItem());
 				tabData.accept(ChemieModModItems.URANIUM_PICKAXE.get());
 				tabData.accept(ChemieModModItems.URANIUM_SUPER_INGOT.get());
+				tabData.accept(ChemieModModItems.GOUTGAS.get());
+				tabData.accept(ChemieModModItems.GASBOTTLE.get());
 			}).build());
 }
