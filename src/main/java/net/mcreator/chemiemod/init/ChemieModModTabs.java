@@ -34,8 +34,6 @@ public class ChemieModModTabs {
 			tabData.accept(ChemieModModItems.TITAN_PICKAXE.get());
 			tabData.accept(ChemieModModItems.TITANSWORD.get());
 			tabData.accept(ChemieModModItems.T_ITAN_AXE.get());
-			tabData.accept(ChemieModModItems.TITAN_SHOVEL.get());
-			tabData.accept(ChemieModModItems.TITAN_HOE.get());
 		}
 	}
 }
