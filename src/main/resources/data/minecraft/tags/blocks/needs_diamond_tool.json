@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "chemie_mod:uranium_ore",
+    "chemie_mod:lithium_ore"
+  ]
+}

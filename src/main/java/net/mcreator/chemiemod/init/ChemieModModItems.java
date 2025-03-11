@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.chemiemod.item.UranIngotItem;
 import net.mcreator.chemiemod.item.TitanswordItem;
 import net.mcreator.chemiemod.item.TitanShovelItem;
 import net.mcreator.chemiemod.item.TitanPickaxeItem;
@@ -21,6 +22,7 @@ import net.mcreator.chemiemod.item.TitanArmorItem;
 import net.mcreator.chemiemod.item.TItanAxeItem;
 import net.mcreator.chemiemod.item.NatriumIngotItem;
 import net.mcreator.chemiemod.item.MagnisumIngotItem;
+import net.mcreator.chemiemod.item.LithiumIngotItem;
 import net.mcreator.chemiemod.ChemieModMod;
 
 public class ChemieModModItems {
@@ -40,6 +42,10 @@ public class ChemieModModItems {
 	public static final RegistryObject<Item> MAGNISUM_INGOT = REGISTRY.register("magnisum_ingot", () -> new MagnisumIngotItem());
 	public static final RegistryObject<Item> NATRIUM_INGOT = REGISTRY.register("natrium_ingot", () -> new NatriumIngotItem());
 	public static final RegistryObject<Item> NATRIUM_ORE = block(ChemieModModBlocks.NATRIUM_ORE);
+	public static final RegistryObject<Item> LITHIUM_INGOT = REGISTRY.register("lithium_ingot", () -> new LithiumIngotItem());
+	public static final RegistryObject<Item> LITHIUM_ORE = block(ChemieModModBlocks.LITHIUM_ORE);
+	public static final RegistryObject<Item> URAN_INGOT = REGISTRY.register("uran_ingot", () -> new UranIngotItem());
+	public static final RegistryObject<Item> URANIUM_ORE = block(ChemieModModBlocks.URANIUM_ORE);
 
 	// Start of user code block custom items
 	// End of user code block custom items

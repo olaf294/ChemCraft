@@ -377,6 +377,68 @@
           "src/main/resources/data/chemie_mod/damage_type/irradiated.json"
         ]
       }
+    },
+    {
+      "name": "LithiumIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lithium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemie_mod/models/item/lithium_ingot.json",
+          "src/main/java/net/mcreator/chemiemod/item/LithiumIngotItem.java"
+        ]
+      },
+      "path": "~/Metalle/Lithium"
+    },
+    {
+      "name": "LithiumOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lithium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemie_mod/blockstates/lithium_ore.json",
+          "src/main/resources/data/chemie_mod/loot_tables/blocks/lithium_ore.json",
+          "src/main/java/net/mcreator/chemiemod/block/LithiumOreBlock.java",
+          "src/main/resources/assets/chemie_mod/models/block/lithium_ore.json",
+          "src/main/resources/assets/chemie_mod/models/item/lithium_ore.json"
+        ]
+      },
+      "path": "~/Metalle/Lithium"
+    },
+    {
+      "name": "UranIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uran_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemiemod/item/UranIngotItem.java",
+          "src/main/resources/assets/chemie_mod/models/item/uran_ingot.json"
+        ]
+      },
+      "path": "~/Metalle/Uran"
+    },
+    {
+      "name": "UraniumOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemie_mod/loot_tables/blocks/uranium_ore.json",
+          "src/main/java/net/mcreator/chemiemod/block/UraniumOreBlock.java",
+          "src/main/resources/assets/chemie_mod/models/item/uranium_ore.json",
+          "src/main/resources/assets/chemie_mod/models/block/uranium_ore.json",
+          "src/main/resources/assets/chemie_mod/blockstates/uranium_ore.json"
+        ]
+      },
+      "path": "~/Metalle/Uran"
     }
   ],
   "variable_elements": [],
@@ -386,7 +448,13 @@
       "~CUSTOM:MagnesiumOre",
       "~CUSTOM:Titan"
     ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:UraniumOre",
+      "~CUSTOM:LithiumOre"
+    ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:UraniumOre",
+      "~CUSTOM:LithiumOre",
       "~CUSTOM:NatriumOre",
       "~CUSTOM:MagnesiumOre",
       "~CUSTOM:Titan"
@@ -417,13 +485,16 @@
       "item.chemie_mod.titan_armor_helmet": "Titan Helmet",
       "death.attack.acidburn": "%1$s was dissolved in acid :)",
       "item.chemie_mod.natrium_ingot": "Natrium Ingot",
+      "block.chemie_mod.uranium_ore": "Uranium Ore",
       "item.chemie_mod.titan_armor_chestplate": "Titan Chestplate",
       "block.chemie_mod.natrium_ore": "Natrium Ore",
+      "item.chemie_mod.lithium_ingot": "Lithium Ingot",
       "item.chemie_mod.titan_armor_leggings": "Titan Leggings",
       "item.chemie_mod.titansword": "Titansword",
       "item_group.chemie_mod.chem_craft": "Chem Craft",
       "item.chemie_mod.titan_armor_boots": "Titan Boots",
       "death.attack.irradiated": "%1$s was turned into a radioactive puddle :(",
+      "block.chemie_mod.lithium_ore": "Lithium Ore",
       "item.chemie_mod.titan_hoe": "Titan Hoe",
       "item.chemie_mod.titan_ingot": "Titan Ingot",
       "block.chemie_mod.titanore": "Titan Ore",
@@ -436,7 +507,8 @@
       "death.attack.irradiated.player": "%1$s died whilst trying to escape %2$s",
       "item.chemie_mod.titan_axe": "Titan Axe",
       "block.chemie_mod.magnesium_ore": "Magnesium Ore",
-      "death.attack.acidburn.player": "%1$s died whilst trying to escape %2$s"
+      "death.attack.acidburn.player": "%1$s died whilst trying to escape %2$s",
+      "item.chemie_mod.uran_ingot": "Uran Ingot"
     }
   },
   "foldersRoot": {

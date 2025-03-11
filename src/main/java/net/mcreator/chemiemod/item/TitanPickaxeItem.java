@@ -17,7 +17,7 @@ public class TitanPickaxeItem extends PickaxeItem {
 			}
 
 			public float getSpeed() {
-				return 4f;
+				return 7f;
 			}
 
 			public float getAttackDamageBonus() {
