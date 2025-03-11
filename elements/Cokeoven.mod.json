@@ -4,8 +4,8 @@
   "definition": {
     "texture": "coke_oven_bottom",
     "textureTop": "coke_oven_top",
-    "textureLeft": "coke_oven_side",
-    "textureFront": "coke_oven_front",
+    "textureLeft": "coke_oven_front",
+    "textureFront": "coke_oven_side",
     "textureRight": "coke_oven_side",
     "textureBack": "coke_oven_side",
     "renderType": 10,
