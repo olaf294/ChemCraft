@@ -15,6 +15,7 @@ import net.mcreator.chemiemod.block.TitanBlock;
 import net.mcreator.chemiemod.block.NatriumOreBlock;
 import net.mcreator.chemiemod.block.MagnesiumOreBlock;
 import net.mcreator.chemiemod.block.LithiumOreBlock;
+import net.mcreator.chemiemod.block.CokeovenBlock;
 import net.mcreator.chemiemod.ChemieModMod;
 
 public class ChemieModModBlocks {
@@ -24,6 +25,7 @@ public class ChemieModModBlocks {
 	public static final RegistryObject<Block> NATRIUM_ORE = REGISTRY.register("natrium_ore", () -> new NatriumOreBlock());
 	public static final RegistryObject<Block> URANIUM_ORE = REGISTRY.register("uranium_ore", () -> new UraniumOreBlock());
 	public static final RegistryObject<Block> LITHIUM_ORE = REGISTRY.register("lithium_ore", () -> new LithiumOreBlock());
+	public static final RegistryObject<Block> COKEOVEN = REGISTRY.register("cokeoven", () -> new CokeovenBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

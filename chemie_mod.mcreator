@@ -464,6 +464,23 @@
         ]
       },
       "path": "~/Metalle/Lithium"
+    },
+    {
+      "name": "Cokeoven",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cokeoven",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemie_mod/loot_tables/blocks/cokeoven.json",
+          "src/main/resources/assets/chemie_mod/models/item/cokeoven.json",
+          "src/main/java/net/mcreator/chemiemod/block/CokeovenBlock.java",
+          "src/main/resources/assets/chemie_mod/models/block/cokeoven.json",
+          "src/main/resources/assets/chemie_mod/blockstates/cokeoven.json"
+        ]
+      },
+      "path": "~/Nichtmetalle/Koks"
     }
   ],
   "variable_elements": [],
@@ -521,6 +538,7 @@
       "item.chemie_mod.titan_armor_boots": "Titan Boots",
       "death.attack.irradiated": "%1$s was turned into a radioactive puddle :(",
       "block.chemie_mod.lithium_ore": "Lithium Ore",
+      "block.chemie_mod.cokeoven": "Cokeoven",
       "item.chemie_mod.titan_hoe": "Titan Hoe",
       "item.chemie_mod.titan_ingot": "Titan Ingot",
       "block.chemie_mod.titanore": "Titan Ore",

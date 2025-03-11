@@ -48,6 +48,7 @@ public class ChemieModModItems {
 	public static final RegistryObject<Item> URAN_INGOT = REGISTRY.register("uran_ingot", () -> new UranIngotItem());
 	public static final RegistryObject<Item> LITHIUM_INGOT = REGISTRY.register("lithium_ingot", () -> new LithiumIngotItem());
 	public static final RegistryObject<Item> LITHIUM_ORE = block(ChemieModModBlocks.LITHIUM_ORE);
+	public static final RegistryObject<Item> COKEOVEN = block(ChemieModModBlocks.COKEOVEN);
 
 	// Start of user code block custom items
 	// End of user code block custom items
