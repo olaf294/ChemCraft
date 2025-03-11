@@ -365,6 +365,18 @@
         ]
       },
       "path": "~/Metalle/Titan"
+    },
+    {
+      "name": "Irradiated",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "irradiated",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemie_mod/damage_type/irradiated.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -401,25 +413,28 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item_group.chemie_mod.chem_craft": "Chem Craft",
-      "item.chemie_mod.titan_armor_boots": "Titan Boots",
       "item.chemie_mod.titan_shovel": "Titan Shovel",
       "item.chemie_mod.titan_armor_helmet": "Titan Helmet",
-      "item.chemie_mod.titan_hoe": "Titan Hoe",
       "death.attack.acidburn": "%1$s was dissolved in acid :)",
-      "item.chemie_mod.titan_ingot": "Titan Ingot",
       "item.chemie_mod.natrium_ingot": "Natrium Ingot",
       "item.chemie_mod.titan_armor_chestplate": "Titan Chestplate",
       "block.chemie_mod.natrium_ore": "Natrium Ore",
+      "item.chemie_mod.titan_armor_leggings": "Titan Leggings",
+      "item.chemie_mod.titansword": "Titansword",
+      "item_group.chemie_mod.chem_craft": "Chem Craft",
+      "item.chemie_mod.titan_armor_boots": "Titan Boots",
+      "death.attack.irradiated": "%1$s was turned into a radioactive puddle :(",
+      "item.chemie_mod.titan_hoe": "Titan Hoe",
+      "item.chemie_mod.titan_ingot": "Titan Ingot",
       "block.chemie_mod.titanore": "Titan Ore",
+      "death.attack.irradiated.item": "%1$s was killed by %2$s using %3$s",
       "block.chemie_mod.titan": "Titan Ore",
       "item.chemie_mod.titan_pickaxe": "Titan Pickaxe",
       "item.chemie_mod.t_itan_axe": "Titan Axe",
       "item.chemie_mod.magnisum_ingot": "Magnisum Ingot",
       "death.attack.acidburn.item": "%1$s was killed by %2$s using %3$s",
+      "death.attack.irradiated.player": "%1$s died whilst trying to escape %2$s",
       "item.chemie_mod.titan_axe": "Titan Axe",
-      "item.chemie_mod.titan_armor_leggings": "Titan Leggings",
-      "item.chemie_mod.titansword": "Titansword",
       "block.chemie_mod.magnesium_ore": "Magnesium Ore",
       "death.attack.acidburn.player": "%1$s died whilst trying to escape %2$s"
     }
