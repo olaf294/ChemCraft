@@ -12,10 +12,13 @@ import net.minecraft.world.level.block.Block;
 
 import net.mcreator.chemiemod.block.UraniumOreBlock;
 import net.mcreator.chemiemod.block.TitanBlock;
+import net.mcreator.chemiemod.block.SilverOreBlock;
+import net.mcreator.chemiemod.block.PotassiumOreBlock;
 import net.mcreator.chemiemod.block.NatriumOreBlock;
 import net.mcreator.chemiemod.block.MagnesiumOreBlock;
 import net.mcreator.chemiemod.block.LithiumOreBlock;
 import net.mcreator.chemiemod.block.CokeovenBlock;
+import net.mcreator.chemiemod.block.CalciumOreBlock;
 import net.mcreator.chemiemod.ChemieModMod;
 
 public class ChemieModModBlocks {
@@ -26,6 +29,9 @@ public class ChemieModModBlocks {
 	public static final RegistryObject<Block> URANIUM_ORE = REGISTRY.register("uranium_ore", () -> new UraniumOreBlock());
 	public static final RegistryObject<Block> LITHIUM_ORE = REGISTRY.register("lithium_ore", () -> new LithiumOreBlock());
 	public static final RegistryObject<Block> COKEOVEN = REGISTRY.register("cokeoven", () -> new CokeovenBlock());
+	public static final RegistryObject<Block> CALCIUM_ORE = REGISTRY.register("calcium_ore", () -> new CalciumOreBlock());
+	public static final RegistryObject<Block> SILVER_ORE = REGISTRY.register("silver_ore", () -> new SilverOreBlock());
+	public static final RegistryObject<Block> POTASSIUM_ORE = REGISTRY.register("potassium_ore", () -> new PotassiumOreBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

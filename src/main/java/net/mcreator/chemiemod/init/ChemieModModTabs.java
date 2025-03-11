@@ -42,7 +42,13 @@ public class ChemieModModTabs {
 				tabData.accept(ChemieModModBlocks.COKEOVEN.get().asItem());
 				tabData.accept(ChemieModModItems.URANIUM_PICKAXE.get());
 				tabData.accept(ChemieModModItems.URANIUM_SUPER_INGOT.get());
-				tabData.accept(ChemieModModItems.GOUTGAS.get());
 				tabData.accept(ChemieModModItems.GASBOTTLE.get());
+				tabData.accept(ChemieModModItems.GOUTGAS.get());
+				tabData.accept(ChemieModModBlocks.CALCIUM_ORE.get().asItem());
+				tabData.accept(ChemieModModBlocks.SILVER_ORE.get().asItem());
+				tabData.accept(ChemieModModBlocks.POTASSIUM_ORE.get().asItem());
+				tabData.accept(ChemieModModItems.POTASSIUM_INGOT.get());
+				tabData.accept(ChemieModModItems.CALCIUM_INGOT.get());
+				tabData.accept(ChemieModModItems.SILVER_INGOT.get());
 			}).build());
 }

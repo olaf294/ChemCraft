@@ -571,6 +571,19 @@
       "path": "~/Nichtmetalle/Koks"
     },
     {
+      "name": "Gasbottle",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gasbottle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemie_mod/models/item/gasbottle.json",
+          "src/main/java/net/mcreator/chemiemod/item/GasbottleItem.java"
+        ]
+      }
+    },
+    {
       "name": "Goutgas",
       "type": "item",
       "compiles": true,
@@ -585,23 +598,115 @@
       "path": "~/Nichtmetalle/Koks"
     },
     {
-      "name": "Gasbottle",
+      "name": "VillagerTrade1",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "villager_trade_1",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Villager"
+    },
+    {
+      "name": "CalciumOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "calcium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemie_mod/loot_tables/blocks/calcium_ore.json",
+          "src/main/resources/assets/chemie_mod/models/block/calcium_ore.json",
+          "src/main/resources/assets/chemie_mod/models/item/calcium_ore.json",
+          "src/main/java/net/mcreator/chemiemod/block/CalciumOreBlock.java",
+          "src/main/resources/assets/chemie_mod/blockstates/calcium_ore.json"
+        ]
+      },
+      "path": "~/Metalle/Calcium"
+    },
+    {
+      "name": "SilverOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemiemod/block/SilverOreBlock.java",
+          "src/main/resources/assets/chemie_mod/blockstates/silver_ore.json",
+          "src/main/resources/assets/chemie_mod/models/block/silver_ore.json",
+          "src/main/resources/data/chemie_mod/loot_tables/blocks/silver_ore.json",
+          "src/main/resources/assets/chemie_mod/models/item/silver_ore.json"
+        ]
+      },
+      "path": "~/Metalle/Silber"
+    },
+    {
+      "name": "PotassiumOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potassium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemie_mod/models/block/potassium_ore.json",
+          "src/main/java/net/mcreator/chemiemod/block/PotassiumOreBlock.java",
+          "src/main/resources/data/chemie_mod/loot_tables/blocks/potassium_ore.json",
+          "src/main/resources/assets/chemie_mod/blockstates/potassium_ore.json",
+          "src/main/resources/assets/chemie_mod/models/item/potassium_ore.json"
+        ]
+      },
+      "path": "~/Metalle/Kalium"
+    },
+    {
+      "name": "PotassiumIngot",
       "type": "item",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "gasbottle",
+      "registry_name": "potassium_ingot",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemie_mod/models/item/gasbottle.json",
-          "src/main/java/net/mcreator/chemiemod/item/GasbottleItem.java"
+          "src/main/resources/assets/chemie_mod/models/item/potassium_ingot.json",
+          "src/main/java/net/mcreator/chemiemod/item/PotassiumIngotItem.java"
         ]
-      }
+      },
+      "path": "~/Metalle/Kalium"
+    },
+    {
+      "name": "CalciumIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "calcium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemiemod/item/CalciumIngotItem.java",
+          "src/main/resources/assets/chemie_mod/models/item/calcium_ingot.json"
+        ]
+      },
+      "path": "~/Metalle/Calcium"
+    },
+    {
+      "name": "SilverIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemie_mod/models/item/silver_ingot.json",
+          "src/main/java/net/mcreator/chemiemod/item/SilverIngotItem.java"
+        ]
+      },
+      "path": "~/Metalle/Silber"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:SilverOre",
       "~CUSTOM:MagnesiumOre",
       "~CUSTOM:Titan"
     ],
@@ -610,6 +715,9 @@
       "~CUSTOM:UraniumOre"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:PotassiumOre",
+      "~CUSTOM:SilverOre",
+      "~CUSTOM:CalciumOre",
       "~CUSTOM:LithiumOre",
       "~CUSTOM:UraniumOre",
       "~CUSTOM:NatriumOre",
@@ -617,6 +725,8 @@
       "~CUSTOM:Titan"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:PotassiumOre",
+      "~CUSTOM:CalciumOre",
       "~CUSTOM:NatriumOre"
     ],
     "ITEMS:minecraft:pickaxes": [
@@ -641,11 +751,9 @@
     "en_us": {
       "item.chemie_mod.titan_shovel": "Titan Shovel",
       "item.chemie_mod.titan_armor_helmet": "Titan Helmet",
-      "item.chemie_mod.gasbottle": "Gas bottle",
       "death.attack.acidburn": "%1$s was dissolved in acid :)",
       "item.chemie_mod.uranium_pickaxe": "Uranium Pickaxe",
       "item.chemie_mod.natrium_ingot": " Sodium Chloride",
-      "item.chemie_mod.goutgas": "Goutgas",
       "block.chemie_mod.uranium_ore": "Uranium Ore",
       "item.chemie_mod.titan_armor_chestplate": "Titan Chestplate",
       "block.chemie_mod.natrium_ore": "Sodium Ore",
@@ -661,10 +769,8 @@
       "death.attack.irradiated": "%1$s was turned into a radioactive puddle :(",
       "block.chemie_mod.lithium_ore": "Lithium Ore",
       "block.chemie_mod.cokeoven": "Cokeoven",
-      "gui.chemie_mod.cokeovengui.label_coke_oven": "Coke oven",
       "item.chemie_mod.titan_hoe": "Titan Hoe",
       "item.chemie_mod.titan_ingot": "Titan Ingot",
-      "item.chemie_mod.goutgas.description_0": "CO, H2, CH4",
       "painting.chemie_mod.pse.title": "PSE",
       "block.chemie_mod.titanore": "Titan Ore",
       "death.attack.irradiated.item": "%1$s was killed by %2$s using %3$s",
@@ -725,6 +831,10 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "Villager",
+        "children": []
       },
       {
         "name": "Nichtmetalle",

@@ -1,21 +1,9 @@
 package net.mcreator.chemiemod.client.gui;
 
-import net.minecraft.world.level.Level;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.player.Inventory;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.chat.Component;
-import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
-import net.minecraft.client.gui.GuiGraphics;
-
-import net.mcreator.chemiemod.world.inventory.CokeovenguiMenu;
-
-import java.util.HashMap;
-
-import com.mojang.blaze3d.systems.RenderSystem;
-
 public class CokeovenguiScreen extends AbstractContainerScreen<CokeovenguiMenu> {
+
 	private final static HashMap<String, Object> guistate = CokeovenguiMenu.guistate;
+
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
@@ -36,8 +24,11 @@ public class CokeovenguiScreen extends AbstractContainerScreen<CokeovenguiMenu> 
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
 		this.renderBackground(guiGraphics);
+
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
+
 		this.renderTooltip(guiGraphics, mouseX, mouseY);
+
 	}
 
 	@Override
@@ -45,6 +36,7 @@ public class CokeovenguiScreen extends AbstractContainerScreen<CokeovenguiMenu> 
 		RenderSystem.setShaderColor(1, 1, 1, 1);
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
+
 		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
 		guiGraphics.blit(new ResourceLocation("chemie_mod:textures/screens/screenshot_2025-03-11_155815.png"), this.leftPos + 65, this.topPos + 29, 0, 0, 55, 38, 55, 38);
@@ -58,6 +50,7 @@ public class CokeovenguiScreen extends AbstractContainerScreen<CokeovenguiMenu> 
 			this.minecraft.player.closeContainer();
 			return true;
 		}
+
 		return super.keyPressed(key, b, c);
 	}
 
@@ -69,5 +62,7 @@ public class CokeovenguiScreen extends AbstractContainerScreen<CokeovenguiMenu> 
 	@Override
 	public void init() {
 		super.init();
+
 	}
+
 }

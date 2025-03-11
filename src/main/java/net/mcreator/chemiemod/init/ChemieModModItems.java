@@ -22,12 +22,15 @@ import net.mcreator.chemiemod.item.TitanIngotItem;
 import net.mcreator.chemiemod.item.TitanHoeItem;
 import net.mcreator.chemiemod.item.TitanArmorItem;
 import net.mcreator.chemiemod.item.TItanAxeItem;
+import net.mcreator.chemiemod.item.SilverIngotItem;
+import net.mcreator.chemiemod.item.PotassiumIngotItem;
 import net.mcreator.chemiemod.item.NatriumIngotItem;
 import net.mcreator.chemiemod.item.MagnisumIngotItem;
 import net.mcreator.chemiemod.item.LithiumIngotItem;
 import net.mcreator.chemiemod.item.GoutgasItem;
 import net.mcreator.chemiemod.item.GasbottleItem;
 import net.mcreator.chemiemod.item.CokeItem;
+import net.mcreator.chemiemod.item.CalciumIngotItem;
 import net.mcreator.chemiemod.ChemieModMod;
 
 public class ChemieModModItems {
@@ -55,8 +58,14 @@ public class ChemieModModItems {
 	public static final RegistryObject<Item> COKEOVEN = block(ChemieModModBlocks.COKEOVEN);
 	public static final RegistryObject<Item> URANIUM_PICKAXE = REGISTRY.register("uranium_pickaxe", () -> new UraniumPickaxeItem());
 	public static final RegistryObject<Item> URANIUM_SUPER_INGOT = REGISTRY.register("uranium_super_ingot", () -> new UraniumSuperIngotItem());
-	public static final RegistryObject<Item> GOUTGAS = REGISTRY.register("goutgas", () -> new GoutgasItem());
 	public static final RegistryObject<Item> GASBOTTLE = REGISTRY.register("gasbottle", () -> new GasbottleItem());
+	public static final RegistryObject<Item> GOUTGAS = REGISTRY.register("goutgas", () -> new GoutgasItem());
+	public static final RegistryObject<Item> CALCIUM_ORE = block(ChemieModModBlocks.CALCIUM_ORE);
+	public static final RegistryObject<Item> SILVER_ORE = block(ChemieModModBlocks.SILVER_ORE);
+	public static final RegistryObject<Item> POTASSIUM_ORE = block(ChemieModModBlocks.POTASSIUM_ORE);
+	public static final RegistryObject<Item> POTASSIUM_INGOT = REGISTRY.register("potassium_ingot", () -> new PotassiumIngotItem());
+	public static final RegistryObject<Item> CALCIUM_INGOT = REGISTRY.register("calcium_ingot", () -> new CalciumIngotItem());
+	public static final RegistryObject<Item> SILVER_INGOT = REGISTRY.register("silver_ingot", () -> new SilverIngotItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
