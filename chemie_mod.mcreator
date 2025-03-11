@@ -340,6 +340,19 @@
         ]
       },
       "path": "~/Metalle/Titan"
+    },
+    {
+      "name": "TitaningotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titaningot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chemie_mod/recipes/titaningot_recipe.json"
+        ]
+      },
+      "path": "~/Metalle/Titan"
     }
   ],
   "variable_elements": [],
