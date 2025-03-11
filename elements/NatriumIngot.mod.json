@@ -3,12 +3,12 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "titan_ingot",
+    "texture": "natrium_ingot",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Titan Ingot",
-    "rarity": "EPIC",
+    "name": "Natrium Ingot",
+    "rarity": "COMMON",
     "creativeTabs": [
       {
         "value": "CUSTOM:ChemCraft"

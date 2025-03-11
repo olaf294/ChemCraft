@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "chemie_mod:titan_ingot"
+    }
+  },
+  "result": {
+    "item": "chemie_mod:titan_armor_boots",
+    "count": 1
+  }
+}

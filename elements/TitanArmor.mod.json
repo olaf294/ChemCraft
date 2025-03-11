@@ -12,14 +12,14 @@
     "textureBoots": "titan_armor_boots",
     "creativeTabs": [
       {
-        "value": "COMBAT"
+        "value": "CUSTOM:ChemCraft"
       }
     ],
     "armorTextureFile": "titan_armor",
-    "helmetName": "Titan Armor Helmet",
-    "bodyName": "Titan Armor Chestplate",
-    "leggingsName": "Titan Armor Leggings",
-    "bootsName": "Titan Armor Boots",
+    "helmetName": "Titan Helmet",
+    "bodyName": "Titan Chestplate",
+    "leggingsName": "Titan Leggings",
+    "bootsName": "Titan Boots",
     "helmetSpecialInformation": {
       "fixedValue": []
     },

@@ -1,0 +1,11 @@
+{
+  "_fv": 73,
+  "_type": "tab",
+  "definition": {
+    "name": "Chem Craft",
+    "icon": {
+      "value": "Items.POTIONITEM"
+    },
+    "showSearch": true
+  }
+}
