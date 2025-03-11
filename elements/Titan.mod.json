@@ -49,7 +49,7 @@
     ],
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:TitanIngot"
+      "value": "CUSTOM:Titan"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
