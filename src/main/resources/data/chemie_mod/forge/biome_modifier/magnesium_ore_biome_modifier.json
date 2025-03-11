@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "desert",
+    "snowy_slopes",
+    "windswept_forest",
+    "windswept_gravelly_hills",
+    "windswept_hills"
+  ],
+  "features": "chemie_mod:magnesium_ore",
+  "step": "underground_ores"
+}

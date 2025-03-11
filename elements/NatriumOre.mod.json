@@ -2,12 +2,12 @@
   "_fv": 73,
   "_type": "block",
   "definition": {
-    "texture": "titanium-ore",
-    "textureTop": "titanium-ore",
-    "textureLeft": "titanium-ore",
-    "textureFront": "titanium-ore",
-    "textureRight": "titanium-ore",
-    "textureBack": "titanium-ore",
+    "texture": "natrium_ore",
+    "textureTop": "natrium_ore",
+    "textureLeft": "natrium_ore",
+    "textureFront": "natrium_ore",
+    "textureRight": "natrium_ore",
+    "textureBack": "natrium_ore",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -34,12 +34,12 @@
       }
     ],
     "customProperties": [],
-    "name": "Titan Ore",
+    "name": "Natrium Ore",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 3.0,
-    "resistance": 5.0,
+    "hardness": 2.5,
+    "resistance": 4.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTabs": [
@@ -49,9 +49,9 @@
     ],
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:TitanIngot"
+      "value": "CUSTOM:NatriumIngot"
     },
-    "dropAmount": 1,
+    "dropAmount": 3,
     "useLootTableForDrops": false,
     "requiresCorrectTool": true,
     "enchantPowerBonus": 0.0,
@@ -103,7 +103,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "vanillaToolTier": "IRON",
+    "vanillaToolTier": "STONE",
     "isBonemealable": false,
     "hasInventory": false,
     "openGUIOnRightClick": false,
@@ -122,16 +122,20 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "generateFeature": true,
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "desert"
+      }
+    ],
     "blocksToReplace": [
       {
         "value": "TAG:stone_ore_replaceables"
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 5,
+    "frequencyPerChunks": 8,
     "frequencyOnChunk": 10,
-    "minGenerateHeight": -32,
-    "maxGenerateHeight": 32
+    "minGenerateHeight": 20,
+    "maxGenerateHeight": 60
   }
 }

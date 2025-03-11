@@ -2,12 +2,12 @@
   "_fv": 73,
   "_type": "block",
   "definition": {
-    "texture": "titanium-ore",
-    "textureTop": "titanium-ore",
-    "textureLeft": "titanium-ore",
-    "textureFront": "titanium-ore",
-    "textureRight": "titanium-ore",
-    "textureBack": "titanium-ore",
+    "texture": "magnesium_ore",
+    "textureTop": "magnesium_ore",
+    "textureLeft": "magnesium_ore",
+    "textureFront": "magnesium_ore",
+    "textureRight": "magnesium_ore",
+    "textureBack": "magnesium_ore",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -34,12 +34,12 @@
       }
     ],
     "customProperties": [],
-    "name": "Titan Ore",
+    "name": "Magnesium Ore",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 3.0,
-    "resistance": 5.0,
+    "hardness": 3.5,
+    "resistance": 6.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTabs": [
@@ -49,7 +49,7 @@
     ],
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:TitanIngot"
+      "value": "CUSTOM:MagnisumIngot"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -101,7 +101,7 @@
     "stepSound": {
       "value": ""
     },
-    "luminance": 0,
+    "luminance": 1,
     "unbreakable": false,
     "vanillaToolTier": "IRON",
     "isBonemealable": false,
@@ -122,16 +122,32 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "generateFeature": true,
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "desert"
+      },
+      {
+        "value": "snowy_slopes"
+      },
+      {
+        "value": "extreme_hills_with_trees"
+      },
+      {
+        "value": "mutated_extreme_hills"
+      },
+      {
+        "value": "mountains"
+      }
+    ],
     "blocksToReplace": [
       {
         "value": "TAG:stone_ore_replaceables"
       }
     ],
-    "generationShape": "UNIFORM",
-    "frequencyPerChunks": 5,
-    "frequencyOnChunk": 10,
-    "minGenerateHeight": -32,
-    "maxGenerateHeight": 32
+    "generationShape": "TRIANGLE",
+    "frequencyPerChunks": 12,
+    "frequencyOnChunk": 8,
+    "minGenerateHeight": 40,
+    "maxGenerateHeight": 80
   }
 }

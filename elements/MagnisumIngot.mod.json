@@ -3,12 +3,12 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "titan_ingot",
+    "texture": "magnesium_ingot",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Titan Ingot",
-    "rarity": "EPIC",
+    "name": "Magnisum Ingot",
+    "rarity": "RARE",
     "creativeTabs": [
       {
         "value": "CUSTOM:ChemCraft"
@@ -23,7 +23,7 @@
       "value": ""
     },
     "destroyAnyBlock": false,
-    "immuneToFire": false,
+    "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,

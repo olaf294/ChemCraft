@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "desert",
+  "features": "chemie_mod:natrium_ore",
+  "step": "underground_ores"
+}

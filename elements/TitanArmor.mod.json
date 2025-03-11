@@ -12,7 +12,7 @@
     "textureBoots": "titan_armor_boots",
     "creativeTabs": [
       {
-        "value": "COMBAT"
+        "value": "CUSTOM:ChemCraft"
       }
     ],
     "armorTextureFile": "titan_armor",

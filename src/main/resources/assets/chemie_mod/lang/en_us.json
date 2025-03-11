@@ -1,12 +1,20 @@
 {
-  "item.chemie_mod.titan_armor_chestplate": "Titan Armor Chestplate",
-  "block.chemie_mod.titanore": "Titan Ore",
+  "item_group.chemie_mod.chem_craft": "Chem Craft",
   "item.chemie_mod.titan_armor_boots": "Titan Armor Boots",
+  "item.chemie_mod.titan_shovel": "Titan Shovel",
+  "item.chemie_mod.titan_armor_helmet": "Titan Armor Helmet",
+  "item.chemie_mod.titan_hoe": "Titan Hoe",
+  "item.chemie_mod.titan_ingot": "Titan Ingot",
+  "item.chemie_mod.natrium_ingot": "Natrium Ingot",
+  "item.chemie_mod.titan_armor_chestplate": "Titan Armor Chestplate",
+  "block.chemie_mod.natrium_ore": "Natrium Ore",
+  "block.chemie_mod.titanore": "Titan Ore",
   "block.chemie_mod.titan": "Titan Ore",
   "item.chemie_mod.titan_pickaxe": "Titan Pickaxe",
-  "item.chemie_mod.titan_armor_helmet": "Titan Armor Helmet",
+  "item.chemie_mod.t_itan_axe": "Titan Axe",
+  "item.chemie_mod.magnisum_ingot": "Magnisum Ingot",
   "item.chemie_mod.titan_axe": "Titan Axe",
-  "item.chemie_mod.titan_ingot": "Titan Ingot",
   "item.chemie_mod.titan_armor_leggings": "Titan Armor Leggings",
-  "item.chemie_mod.titansword": "Titansword"
+  "item.chemie_mod.titansword": "Titansword",
+  "block.chemie_mod.magnesium_ore": "Magnesium Ore"
 }
