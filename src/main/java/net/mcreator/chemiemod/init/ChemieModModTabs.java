@@ -34,5 +34,6 @@ public class ChemieModModTabs {
 				tabData.accept(ChemieModModItems.MAGNISUM_INGOT.get());
 				tabData.accept(ChemieModModItems.NATRIUM_INGOT.get());
 				tabData.accept(ChemieModModBlocks.NATRIUM_ORE.get().asItem());
+				tabData.accept(ChemieModModItems.COKE.get());
 			}).withSearchBar().build());
 }

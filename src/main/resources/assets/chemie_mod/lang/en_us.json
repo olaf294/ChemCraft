@@ -7,6 +7,7 @@
   "block.chemie_mod.natrium_ore": "Natrium Ore",
   "item.chemie_mod.titan_armor_leggings": "Titan Leggings",
   "item.chemie_mod.titansword": "Titansword",
+  "item.chemie_mod.coke": "Coke",
   "item_group.chemie_mod.chem_craft": "Chem Craft",
   "item.chemie_mod.titan_armor_boots": "Titan Boots",
   "death.attack.irradiated": "%1$s was turned into a radioactive puddle :(",
@@ -21,6 +22,7 @@
   "death.attack.acidburn.item": "%1$s was killed by %2$s using %3$s",
   "death.attack.irradiated.player": "%1$s died whilst trying to escape %2$s",
   "item.chemie_mod.titan_axe": "Titan Axe",
+  "item.chemie_mod.coke.description_0": "pure Carbon (C)",
   "block.chemie_mod.magnesium_ore": "Magnesium Ore",
   "death.attack.acidburn.player": "%1$s died whilst trying to escape %2$s"
 }

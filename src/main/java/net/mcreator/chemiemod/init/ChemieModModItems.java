@@ -21,6 +21,7 @@ import net.mcreator.chemiemod.item.TitanArmorItem;
 import net.mcreator.chemiemod.item.TItanAxeItem;
 import net.mcreator.chemiemod.item.NatriumIngotItem;
 import net.mcreator.chemiemod.item.MagnisumIngotItem;
+import net.mcreator.chemiemod.item.CokeItem;
 import net.mcreator.chemiemod.ChemieModMod;
 
 public class ChemieModModItems {
@@ -40,6 +41,7 @@ public class ChemieModModItems {
 	public static final RegistryObject<Item> MAGNISUM_INGOT = REGISTRY.register("magnisum_ingot", () -> new MagnisumIngotItem());
 	public static final RegistryObject<Item> NATRIUM_INGOT = REGISTRY.register("natrium_ingot", () -> new NatriumIngotItem());
 	public static final RegistryObject<Item> NATRIUM_ORE = block(ChemieModModBlocks.NATRIUM_ORE);
+	public static final RegistryObject<Item> COKE = REGISTRY.register("coke", () -> new CokeItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
