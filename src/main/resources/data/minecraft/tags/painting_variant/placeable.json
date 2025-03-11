@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "chemie_mod:pse"
+    "chemie_mod:pse",
+    "chemie_mod:giant_pse"
   ]
 }
