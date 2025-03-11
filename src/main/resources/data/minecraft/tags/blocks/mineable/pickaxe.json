@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "chemie_mod:lithium_ore",
+    "chemie_mod:uranium_ore",
     "chemie_mod:natrium_ore",
     "chemie_mod:magnesium_ore",
     "chemie_mod:titan"

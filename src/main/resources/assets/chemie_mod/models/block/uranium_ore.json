@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chemie_mod:block/uranium_ore",
+    "up": "chemie_mod:block/uranium_ore",
+    "north": "chemie_mod:block/uranium_ore",
+    "east": "chemie_mod:block/uranium_ore",
+    "south": "chemie_mod:block/uranium_ore",
+    "west": "chemie_mod:block/uranium_ore",
+    "particle": "chemie_mod:block/uranium_ore"
+  },
+  "render_type": "solid"
+}

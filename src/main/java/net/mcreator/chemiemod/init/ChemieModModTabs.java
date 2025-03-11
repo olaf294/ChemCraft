@@ -35,5 +35,8 @@ public class ChemieModModTabs {
 				tabData.accept(ChemieModModItems.NATRIUM_INGOT.get());
 				tabData.accept(ChemieModModBlocks.NATRIUM_ORE.get().asItem());
 				tabData.accept(ChemieModModItems.COKE.get());
-			}).withSearchBar().build());
+				tabData.accept(ChemieModModItems.URAN_INGOT.get());
+				tabData.accept(ChemieModModItems.LITHIUM_INGOT.get());
+				tabData.accept(ChemieModModBlocks.LITHIUM_ORE.get().asItem());
+			}).build());
 }

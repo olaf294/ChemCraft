@@ -6,6 +6,6 @@
     "icon": {
       "value": "Items.POTIONITEM"
     },
-    "showSearch": true
+    "showSearch": false
   }
 }

@@ -379,6 +379,17 @@
       }
     },
     {
+      "name": "Koksfuel",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "koksfuel",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Nichtmetalle/Koks"
+    },
+    {
       "name": "Coke",
       "type": "item",
       "compiles": true,
@@ -393,15 +404,66 @@
       "path": "~/Nichtmetalle/Koks"
     },
     {
-      "name": "Koksfuel",
-      "type": "itemextension",
+      "name": "UraniumOre",
+      "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "koksfuel",
+      "registry_name": "uranium_ore",
       "metadata": {
-        "files": []
+        "files": [
+          "src/main/resources/assets/chemie_mod/models/block/uranium_ore.json",
+          "src/main/java/net/mcreator/chemiemod/block/UraniumOreBlock.java",
+          "src/main/resources/assets/chemie_mod/models/item/uranium_ore.json",
+          "src/main/resources/assets/chemie_mod/blockstates/uranium_ore.json",
+          "src/main/resources/data/chemie_mod/loot_tables/blocks/uranium_ore.json"
+        ]
       },
-      "path": "~/Nichtmetalle/Koks"
+      "path": "~/Metalle/Uran"
+    },
+    {
+      "name": "UranIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uran_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemie_mod/models/item/uran_ingot.json",
+          "src/main/java/net/mcreator/chemiemod/item/UranIngotItem.java"
+        ]
+      },
+      "path": "~/Metalle/Uran"
+    },
+    {
+      "name": "LithiumIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lithium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chemiemod/item/LithiumIngotItem.java",
+          "src/main/resources/assets/chemie_mod/models/item/lithium_ingot.json"
+        ]
+      },
+      "path": "~/Metalle/Lithium"
+    },
+    {
+      "name": "LithiumOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lithium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chemie_mod/blockstates/lithium_ore.json",
+          "src/main/resources/data/chemie_mod/loot_tables/blocks/lithium_ore.json",
+          "src/main/resources/assets/chemie_mod/models/item/lithium_ore.json",
+          "src/main/resources/assets/chemie_mod/models/block/lithium_ore.json",
+          "src/main/java/net/mcreator/chemiemod/block/LithiumOreBlock.java"
+        ]
+      },
+      "path": "~/Metalle/Lithium"
     }
   ],
   "variable_elements": [],
@@ -411,7 +473,13 @@
       "~CUSTOM:MagnesiumOre",
       "~CUSTOM:Titan"
     ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:LithiumOre",
+      "~CUSTOM:UraniumOre"
+    ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:LithiumOre",
+      "~CUSTOM:UraniumOre",
       "~CUSTOM:NatriumOre",
       "~CUSTOM:MagnesiumOre",
       "~CUSTOM:Titan"
@@ -446,7 +514,6 @@
       "block.chemie_mod.natrium_ore": "Natrium Ore",
       "item.chemie_mod.titan_armor_leggings": "Titan Leggings",
       "item.chemie_mod.titansword": "Titansword",
-      "item.chemie_mod.coke": "Coke",
       "item_group.chemie_mod.chem_craft": "Chem Craft",
       "item.chemie_mod.titan_armor_boots": "Titan Boots",
       "death.attack.irradiated": "%1$s was turned into a radioactive puddle :(",
@@ -461,7 +528,6 @@
       "death.attack.acidburn.item": "%1$s was killed by %2$s using %3$s",
       "death.attack.irradiated.player": "%1$s died whilst trying to escape %2$s",
       "item.chemie_mod.titan_axe": "Titan Axe",
-      "item.chemie_mod.coke.description_0": "pure Carbon (C)",
       "block.chemie_mod.magnesium_ore": "Magnesium Ore",
       "death.attack.acidburn.player": "%1$s died whilst trying to escape %2$s"
     }
