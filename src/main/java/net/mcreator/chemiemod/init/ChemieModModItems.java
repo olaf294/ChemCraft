@@ -12,6 +12,8 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.chemiemod.item.UraniumSuperIngotItem;
+import net.mcreator.chemiemod.item.UraniumPickaxeItem;
 import net.mcreator.chemiemod.item.UranIngotItem;
 import net.mcreator.chemiemod.item.TitanswordItem;
 import net.mcreator.chemiemod.item.TitanShovelItem;
@@ -49,6 +51,8 @@ public class ChemieModModItems {
 	public static final RegistryObject<Item> LITHIUM_INGOT = REGISTRY.register("lithium_ingot", () -> new LithiumIngotItem());
 	public static final RegistryObject<Item> LITHIUM_ORE = block(ChemieModModBlocks.LITHIUM_ORE);
 	public static final RegistryObject<Item> COKEOVEN = block(ChemieModModBlocks.COKEOVEN);
+	public static final RegistryObject<Item> URANIUM_PICKAXE = REGISTRY.register("uranium_pickaxe", () -> new UraniumPickaxeItem());
+	public static final RegistryObject<Item> URANIUM_SUPER_INGOT = REGISTRY.register("uranium_super_ingot", () -> new UraniumSuperIngotItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

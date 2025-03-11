@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "chemie_mod:uranium_pickaxe",
     "chemie_mod:titan_pickaxe"
   ]
 }

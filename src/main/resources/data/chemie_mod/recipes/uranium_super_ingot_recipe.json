@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "chemie_mod:uran_ingot"
+    }
+  },
+  "result": {
+    "item": "chemie_mod:uranium_super_ingot",
+    "count": 1
+  }
+}
