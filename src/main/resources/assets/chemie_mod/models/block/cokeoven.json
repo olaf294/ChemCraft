@@ -3,8 +3,8 @@
   "textures": {
     "down": "chemie_mod:block/coke_oven_bottom",
     "up": "chemie_mod:block/coke_oven_top",
-    "north": "chemie_mod:block/coke_oven_side",
-    "east": "chemie_mod:block/coke_oven_front",
+    "north": "chemie_mod:block/coke_oven_front",
+    "east": "chemie_mod:block/coke_oven_side",
     "south": "chemie_mod:block/coke_oven_side",
     "west": "chemie_mod:block/coke_oven_side",
     "particle": "chemie_mod:block/coke_oven_bottom"
