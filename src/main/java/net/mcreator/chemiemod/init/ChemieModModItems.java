@@ -25,6 +25,7 @@ import net.mcreator.chemiemod.item.TItanAxeItem;
 import net.mcreator.chemiemod.item.NatriumIngotItem;
 import net.mcreator.chemiemod.item.MagnisumIngotItem;
 import net.mcreator.chemiemod.item.LithiumIngotItem;
+import net.mcreator.chemiemod.item.CokeItem;
 import net.mcreator.chemiemod.ChemieModMod;
 
 public class ChemieModModItems {
@@ -50,6 +51,7 @@ public class ChemieModModItems {
 	public static final RegistryObject<Item> URANIUM_ORE = block(ChemieModModBlocks.URANIUM_ORE);
 	public static final RegistryObject<Item> URANIUM_PICKAXE = REGISTRY.register("uranium_pickaxe", () -> new UraniumPickaxeItem());
 	public static final RegistryObject<Item> URANIUM_SUPER_INGOT = REGISTRY.register("uranium_super_ingot", () -> new UraniumSuperIngotItem());
+	public static final RegistryObject<Item> COKE = REGISTRY.register("coke", () -> new CokeItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -40,5 +40,6 @@ public class ChemieModModTabs {
 				tabData.accept(ChemieModModBlocks.URANIUM_ORE.get().asItem());
 				tabData.accept(ChemieModModItems.URANIUM_PICKAXE.get());
 				tabData.accept(ChemieModModItems.URANIUM_SUPER_INGOT.get());
+				tabData.accept(ChemieModModItems.COKE.get());
 			}).build());
 }
