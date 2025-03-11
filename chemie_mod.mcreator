@@ -20,13 +20,13 @@
       "registry_name": "titan",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemie_mod/blockstates/titan.json",
-          "src/main/resources/data/chemie_mod/forge/biome_modifier/titan_biome_modifier.json",
-          "src/main/resources/data/chemie_mod/loot_tables/blocks/titan.json",
-          "src/main/resources/assets/chemie_mod/models/item/titan.json",
           "src/main/java/net/mcreator/chemiemod/block/TitanBlock.java",
-          "src/main/resources/data/chemie_mod/worldgen/configured_feature/titan.json",
+          "src/main/resources/data/chemie_mod/loot_tables/blocks/titan.json",
           "src/main/resources/data/chemie_mod/worldgen/placed_feature/titan.json",
+          "src/main/resources/assets/chemie_mod/blockstates/titan.json",
+          "src/main/resources/data/chemie_mod/worldgen/configured_feature/titan.json",
+          "src/main/resources/data/chemie_mod/forge/biome_modifier/titan_biome_modifier.json",
+          "src/main/resources/assets/chemie_mod/models/item/titan.json",
           "src/main/resources/assets/chemie_mod/models/block/titan.json"
         ]
       },
@@ -40,8 +40,8 @@
       "registry_name": "titan_ingot",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chemiemod/item/TitanIngotItem.java",
-          "src/main/resources/assets/chemie_mod/models/item/titan_ingot.json"
+          "src/main/resources/assets/chemie_mod/models/item/titan_ingot.json",
+          "src/main/java/net/mcreator/chemiemod/item/TitanIngotItem.java"
         ]
       },
       "path": "~/Metalle/Titan"
@@ -54,11 +54,11 @@
       "registry_name": "titan_armor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemie_mod/models/item/titan_armor_leggings.json",
-          "src/main/resources/assets/chemie_mod/models/item/titan_armor_boots.json",
           "src/main/resources/assets/chemie_mod/models/item/titan_armor_chestplate.json",
-          "src/main/resources/assets/chemie_mod/models/item/titan_armor_helmet.json",
-          "src/main/java/net/mcreator/chemiemod/item/TitanArmorItem.java"
+          "src/main/resources/assets/chemie_mod/models/item/titan_armor_boots.json",
+          "src/main/java/net/mcreator/chemiemod/item/TitanArmorItem.java",
+          "src/main/resources/assets/chemie_mod/models/item/titan_armor_leggings.json",
+          "src/main/resources/assets/chemie_mod/models/item/titan_armor_helmet.json"
         ]
       },
       "path": "~/Metalle/Titan"
@@ -71,8 +71,8 @@
       "registry_name": "titan_pickaxe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chemiemod/item/TitanPickaxeItem.java",
-          "src/main/resources/assets/chemie_mod/models/item/titan_pickaxe.json"
+          "src/main/resources/assets/chemie_mod/models/item/titan_pickaxe.json",
+          "src/main/java/net/mcreator/chemiemod/item/TitanPickaxeItem.java"
         ]
       },
       "path": "~/Metalle/Titan"
@@ -99,8 +99,8 @@
       "registry_name": "t_itan_axe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chemiemod/item/TItanAxeItem.java",
-          "src/main/resources/assets/chemie_mod/models/item/t_itan_axe.json"
+          "src/main/resources/assets/chemie_mod/models/item/t_itan_axe.json",
+          "src/main/java/net/mcreator/chemiemod/item/TItanAxeItem.java"
         ]
       },
       "path": "~/Metalle/Titan"
@@ -113,8 +113,8 @@
       "registry_name": "titan_shovel",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chemiemod/item/TitanShovelItem.java",
-          "src/main/resources/assets/chemie_mod/models/item/titan_shovel.json"
+          "src/main/resources/assets/chemie_mod/models/item/titan_shovel.json",
+          "src/main/java/net/mcreator/chemiemod/item/TitanShovelItem.java"
         ]
       },
       "path": "~/Metalle/Titan"
@@ -127,8 +127,8 @@
       "registry_name": "titan_hoe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/chemie_mod/models/item/titan_hoe.json",
-          "src/main/java/net/mcreator/chemiemod/item/TitanHoeItem.java"
+          "src/main/java/net/mcreator/chemiemod/item/TitanHoeItem.java",
+          "src/main/resources/assets/chemie_mod/models/item/titan_hoe.json"
         ]
       },
       "path": "~/Metalle/Titan"
@@ -152,13 +152,13 @@
       "metadata": {
         "files": [
           "src/main/resources/data/chemie_mod/worldgen/placed_feature/magnesium_ore.json",
-          "src/main/resources/data/chemie_mod/forge/biome_modifier/magnesium_ore_biome_modifier.json",
-          "src/main/resources/assets/chemie_mod/models/block/magnesium_ore.json",
-          "src/main/resources/assets/chemie_mod/models/item/magnesium_ore.json",
-          "src/main/resources/data/chemie_mod/loot_tables/blocks/magnesium_ore.json",
           "src/main/java/net/mcreator/chemiemod/block/MagnesiumOreBlock.java",
+          "src/main/resources/data/chemie_mod/loot_tables/blocks/magnesium_ore.json",
           "src/main/resources/data/chemie_mod/worldgen/configured_feature/magnesium_ore.json",
-          "src/main/resources/assets/chemie_mod/blockstates/magnesium_ore.json"
+          "src/main/resources/assets/chemie_mod/models/item/magnesium_ore.json",
+          "src/main/resources/data/chemie_mod/forge/biome_modifier/magnesium_ore_biome_modifier.json",
+          "src/main/resources/assets/chemie_mod/blockstates/magnesium_ore.json",
+          "src/main/resources/assets/chemie_mod/models/block/magnesium_ore.json"
         ]
       },
       "path": "~/Metalle/Magnesium"
@@ -171,8 +171,8 @@
       "registry_name": "magnisum_ingot",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chemiemod/item/MagnisumIngotItem.java",
-          "src/main/resources/assets/chemie_mod/models/item/magnisum_ingot.json"
+          "src/main/resources/assets/chemie_mod/models/item/magnisum_ingot.json",
+          "src/main/java/net/mcreator/chemiemod/item/MagnisumIngotItem.java"
         ]
       },
       "path": "~/Metalle/Magnesium"
@@ -185,8 +185,8 @@
       "registry_name": "natrium_ingot",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/chemiemod/item/NatriumIngotItem.java",
-          "src/main/resources/assets/chemie_mod/models/item/natrium_ingot.json"
+          "src/main/resources/assets/chemie_mod/models/item/natrium_ingot.json",
+          "src/main/java/net/mcreator/chemiemod/item/NatriumIngotItem.java"
         ]
       },
       "path": "~/Metalle/Natrium"
@@ -201,12 +201,12 @@
         "files": [
           "src/main/resources/assets/chemie_mod/models/block/natrium_ore.json",
           "src/main/resources/data/chemie_mod/worldgen/configured_feature/natrium_ore.json",
-          "src/main/resources/data/chemie_mod/forge/biome_modifier/natrium_ore_biome_modifier.json",
-          "src/main/resources/assets/chemie_mod/models/item/natrium_ore.json",
+          "src/main/resources/data/chemie_mod/loot_tables/blocks/natrium_ore.json",
           "src/main/java/net/mcreator/chemiemod/block/NatriumOreBlock.java",
+          "src/main/resources/data/chemie_mod/forge/biome_modifier/natrium_ore_biome_modifier.json",
           "src/main/resources/assets/chemie_mod/blockstates/natrium_ore.json",
           "src/main/resources/data/chemie_mod/worldgen/placed_feature/natrium_ore.json",
-          "src/main/resources/data/chemie_mod/loot_tables/blocks/natrium_ore.json"
+          "src/main/resources/assets/chemie_mod/models/item/natrium_ore.json"
         ]
       },
       "path": "~/Metalle/Natrium"
@@ -509,14 +509,18 @@
       "item.chemie_mod.titan_shovel": "Titan Shovel",
       "item.chemie_mod.titan_armor_helmet": "Titan Helmet",
       "death.attack.acidburn": "%1$s was dissolved in acid :)",
-      "item.chemie_mod.natrium_ingot": "Natrium Ingot",
+      "item.chemie_mod.natrium_ingot": " Sodium Chloride",
+      "block.chemie_mod.uranium_ore": "Uranium Ore",
       "item.chemie_mod.titan_armor_chestplate": "Titan Chestplate",
-      "block.chemie_mod.natrium_ore": "Natrium Ore",
+      "block.chemie_mod.natrium_ore": "Sodium Ore",
+      "item.chemie_mod.lithium_ingot": "Lithium Ingot",
       "item.chemie_mod.titan_armor_leggings": "Titan Leggings",
       "item.chemie_mod.titansword": "Titansword",
+      "item.chemie_mod.coke": "Coke",
       "item_group.chemie_mod.chem_craft": "Chem Craft",
       "item.chemie_mod.titan_armor_boots": "Titan Boots",
       "death.attack.irradiated": "%1$s was turned into a radioactive puddle :(",
+      "block.chemie_mod.lithium_ore": "Lithium Ore",
       "item.chemie_mod.titan_hoe": "Titan Hoe",
       "item.chemie_mod.titan_ingot": "Titan Ingot",
       "block.chemie_mod.titanore": "Titan Ore",
@@ -524,12 +528,14 @@
       "block.chemie_mod.titan": "Titan Ore",
       "item.chemie_mod.titan_pickaxe": "Titan Pickaxe",
       "item.chemie_mod.t_itan_axe": "Titan Axe",
-      "item.chemie_mod.magnisum_ingot": "Magnisum Ingot",
+      "item.chemie_mod.magnisum_ingot": "Magnesium Ingot",
       "death.attack.acidburn.item": "%1$s was killed by %2$s using %3$s",
       "death.attack.irradiated.player": "%1$s died whilst trying to escape %2$s",
       "item.chemie_mod.titan_axe": "Titan Axe",
+      "item.chemie_mod.coke.description_0": "pure Carbon (C)",
       "block.chemie_mod.magnesium_ore": "Magnesium Ore",
-      "death.attack.acidburn.player": "%1$s died whilst trying to escape %2$s"
+      "death.attack.acidburn.player": "%1$s died whilst trying to escape %2$s",
+      "item.chemie_mod.uran_ingot": "Uran Ingot"
     }
   },
   "foldersRoot": {
